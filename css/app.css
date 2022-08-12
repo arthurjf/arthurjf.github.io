@@ -6,21 +6,21 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #1a1a21;
-    color: white;
+    color: #FFF;
 }
 
-.top {
+.home .top {
     margin-top: 3rem;
 }
 
-.top img {
+.home .top img {
     width: 12rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.top .title {
+.home .top .title {
     margin: 1rem;
     text-align: center;
 }
@@ -29,8 +29,8 @@ body {
     margin-top: 3rem;
 }
 
-.options .btn {
-    color: black;
+.home .options .btn {
+    color: #000;
     background-color: var(--secondary-color);
     margin-bottom: 1.25rem;
     font-weight: 600;
@@ -38,9 +38,14 @@ body {
     border-color: var(--secondary-color);
 }
 
-.options .btn:hover {
-    color: white;
+.home .options .btn:hover {
+    color: #FFF;
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     transition: 0.2s;
+}
+
+.home .row{
+    margin: 0;
+    padding: 0;
 }
