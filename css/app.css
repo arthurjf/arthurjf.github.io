@@ -33,12 +33,15 @@ body {
     margin-bottom: 1.25rem;
     font-weight: 600;
     border-radius: 20px;
+}
+
+.home .options .btn-primary {
     color: #000;
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
 }
 
-.home .options .btn:hover {
+.home .options .btn-primary:hover {
     color: #FFF;
     background-color: var(--primary-color);
     border-color: var(--primary-color);
