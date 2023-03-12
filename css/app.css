@@ -55,6 +55,13 @@ body {
     padding: 0;
 }
 
-.emph{
+.emph {
     color: #7171ff;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1.5px solid var(--secondary-color);
 }
