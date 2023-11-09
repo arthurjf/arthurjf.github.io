@@ -8,7 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
     <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/app.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <script src='js/bootstrap.bundle.js'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,47 +17,50 @@
 </head>
 
 <body>
-    <div class="container h-100 home">
-        <div class="row justify-content-md-center h-100">
-            <div class="row col-lg-4 col-md-4 col-sm-12">
-                <section class="top">
-                    <img src="img/user.png" />
-                    <h3 class="title fw-bold">Arthur José Fernandes</h3>
-                    <h6 class="text-center emph"><i class="fa-solid fa-laptop-code"></i> Desenvolvedor Júnior/Estagiário</h6>
-                    <h6 class="text-center"><i class="bi bi-controller"></i> Desenvolvedor Hobbysta de Jogos</h6>
-                </section>
-                <section class="options">
-                    <div class="row">
-                        <a class="btn btn-primary"
-                            href="https://www.linkedin.com/in/arthurjf"><i
-                                class="bi bi-linkedin"></i> LinkedIn</a>
-                    </div>
-                    <div class="row">
-                        <a class="btn btn-primary" href="https://github.com/arthurjf/"><i class="bi bi-github"></i>
-                            GitHub</a>
-                    </div>
-                    <div class="row">
-                        <a class="btn btn-primary" href="https://gitlab.com/arthurjf"><i class="fa fa-gitlab"></i>
-                            GitLab</a>
-                    </div>
-                    <div class="row">
-                        <a class="btn btn-primary" href="https://www.instagram.com/arthur_jfernandes/"><i
-                                class="bi bi-instagram"></i> Instagram</a>
-                    </div>
-                    <div class="row">
-                        <a class="btn btn-primary" href="https://www.artstation.com/arthurjf"><i
-                                class="fa-brands fa-artstation"></i> ArtStation</a>
-                    </div>
-                    <div class="row">
-                        <a class="btn btn-primary" href="https://twitter.com/arthur_jf"><i class="bi bi-twitter"></i>
-                            Twitter</a>
-                    </div>
-                </section>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2">
+                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(0)">INÍCIO</button>
+                    </li>
+                    <li class="nav-item px-2">
+                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(1)">INÍCIO</button>
+                    </li>
+                    <li class="nav-item px-2">
+                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(2)">Privacy</button>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <div class="container h-100 home">
+        <!-- Slider -->
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <h1>Slide 1</h1>
+                </div>                
+                <div class="slide">
+                    <h1>Slide 2</h1>
+                </div>
+                <div class="slide">
+                    <iframe src="privacy.html" width="100%" height="500"></iframe>
+                </div>
+
+                <!-- Adicione mais slides conforme necessário -->
+            </div>
+            <button id="prevButton" class="slider-button">&#9665; Anterior</button>
+            <button id="nextButton" class="slider-button">Próximo &#9655;</button>
+        </div>
+        <!-- Fim do Slider -->
     </div>
+
+    <script src="https://kit.fontawesome.com/e0f39b7294.js" crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
-
-<script src="https://kit.fontawesome.com/e0f39b7294.js" crossorigin="anonymous"></script>
