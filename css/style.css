@@ -1,11 +1,17 @@
 :root {
-    --primary-color: #695dd8;
-    --secondary-color: #4c42a7;
-    --title-text-color: #f2f1f3;
-    --text-color: #bcbac3;
-    --background-color: #181626;
+    --primary-color: #5eead4;
+    --secondary-color: #122b39;
+    --title-text-color: #dde3eb;
+    --text-color: #617288;
+    --background-color: #0f172a;
     --botao-slider-espaco: 0px;
     --botao-slider-padding: 40px;
+    --text-selection-color: #5eead4;
+}
+
+::selection {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 * {
@@ -15,14 +21,17 @@
     background-color: var(--background-color);
 }
 
-body, html {
+body,
+html {
     height: 100%;
     font-family: 'Quicksand', Arial, sans-serif;
     background-color: var(--background-color);
     color: #bcbac3;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: var(--title-text-color);
 }
 
@@ -79,6 +88,11 @@ h3 {
     cursor: pointer;
 }
 
+.slider .slide iframe{
+    width: 100%;
+    height: 100%;
+}
+
 #prevButton {
     left: var(--botao-slider-espaco);
     padding: var(--botao-slider-padding);
@@ -102,4 +116,44 @@ h3 {
 
 .navbar {
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--text-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.button-flat {
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-flat,
+.button-flat i {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.button-flat:hover,
+.button-flat:hover i {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    transition: color 0.1s, background-color 0.1s;
 }

@@ -3,19 +3,22 @@
     display: inline;
     flex-wrap: wrap;
     justify-content: space-around;
+    cursor: default;
 }
 
 .skills li {
     list-style: none;
     display: inline-block;
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: 15px;
     padding: 7px;
     margin: 3px;
-    cursor: default;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .skills li:hover {
-    color: var(--title-text-color);
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
