@@ -1,0 +1,26 @@
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.items-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: auto;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.avatar img:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    transition: box-shadow 0.1s ease-in-out;
+}

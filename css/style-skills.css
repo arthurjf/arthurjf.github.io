@@ -1,0 +1,21 @@
+.skills {
+    padding: 0px;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills li {
+    list-style: none;
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    padding: 7px;
+    margin: 3px;
+    cursor: default;
+}
+
+.skills li:hover {
+    color: var(--title-text-color);
+    background-color: var(--secondary-color);
+}
