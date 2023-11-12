@@ -1,36 +1,31 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 :root {
-    --primary-color: #3d3de0;
-    --secondary-color: #b5b5e8;
+    --primary-color: #695dd8;
+    --secondary-color: #695dd8;
+    --title-text-color: #f2f1f3;
+    --text-color: #bcbac3;
+    --background-color: #181626;
+    --botao-slider-espaco: 0px;
+    --botao-slider-padding: 40px;
 }
 
-/* Estilos para o botão personalizado */
-.custom-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-}
-
-.custom-button img {
-    width: 50px;
-    height: auto;
-}
-
-/* Outros estilos de slider e botões (mantidos do exemplo anterior) */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #3d3de0;
+    background-color: var(--background-color);
 }
 
 body, html {
     height: 100%;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
-    color: #3d3de0;
+    font-family: 'Quicksand', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: #bcbac3;
+}
+
+h1, h2, h3 {
+    color: var(--title-text-color);
 }
 
 .container {
@@ -68,7 +63,7 @@ body, html {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -77,14 +72,18 @@ body, html {
 
 /* Posicionando o botão "Anterior" à esquerda */
 #prevButton {
-    left: 10px;
+    left: var(--botao-slider-espaco);
+    padding: var(--botao-slider-padding);
+    height: 100%;
 }
 
 /* Posicionando o botão "Próximo" à direita */
 #nextButton {
-    right: 10px;
+    right: var(--botao-slider-espaco);
+    padding: var(--botao-slider-padding);
+    height: 100%;
 }
 
 .slider-button:hover {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
 }

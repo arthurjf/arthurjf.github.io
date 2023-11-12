@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset='utf-8'>
@@ -12,51 +12,64 @@
     <script src='js/bootstrap.bundle.js'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item px-2">
-                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(0)">INÍCIO</button>
+                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(0)">About</button>
                     </li>
                     <li class="nav-item px-2">
-                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(1)">INÍCIO</button>
+                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(1)">Transit Course!</button>
                     </li>
                     <li class="nav-item px-2">
-                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(2)">Privacy</button>
+                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(2)">Jogo da Forca</button>
+                    </li>
+                    <li class="nav-item px-2">
+                        <button class="nav-link px-3 fw-bold" onclick="navigateToSlide(3)">Encaixando Matemática</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container h-100 home">
-        <!-- Slider -->
-        <div class="slider-container">
-            <div class="slider">
-                <div class="slide">
-                    <h1>Slide 1</h1>
-                </div>                
-                <div class="slide">
-                    <h1>Slide 2</h1>
-                </div>
-                <div class="slide">
-                    <iframe src="privacy.html" width="100%" height="500"></iframe>
-                </div>
 
-                <!-- Adicione mais slides conforme necessário -->
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-2 text-center">
+                <button id="prevButton" class="slider-button">&#9665;</button>
             </div>
-            <button id="prevButton" class="slider-button">&#9665; Anterior</button>
-            <button id="nextButton" class="slider-button">Próximo &#9655;</button>
+            <div class="col-8">
+                <div class="container h-100 home">
+                    <!-- Slider -->
+                    <div class="slider-container">
+                        <div class="slider">
+                            <div class="slide">
+                                <h1>Slide 1</h1>
+                            </div>
+                            <div class="slide">
+                                <h1>Slide 2</h1>
+                            </div>
+                            <div class="slide">
+                                <iframe src="privacy.html" width="100%" height="500"></iframe>
+                            </div>
+                            <!-- Adicione mais slides conforme necessário -->
+                        </div>
+                    </div>
+                    <!-- Fim do Slider -->
+                </div>
+            </div>
+            <div class="col-2 text-center">
+                <button id="nextButton" class="slider-button">&#9655;</button>
+            </div>
         </div>
-        <!-- Fim do Slider -->
     </div>
 
     <script src="https://kit.fontawesome.com/e0f39b7294.js" crossorigin="anonymous"></script>
