@@ -194,6 +194,14 @@ h3 {
     background-color: var(--background-darker-color);
 }
 
-.navbar-toggler{
+.navbar-toggler {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
     color: var(--primary-color);
 }
