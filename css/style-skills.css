@@ -14,11 +14,13 @@
     border-radius: 15px;
     padding: 7px;
     margin: 3px;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, font-size 0.2s ease-in-out, font-weight 0.2s ease-in-out;
 }
 
 .skills li:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, font-size 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+    font-size: 115%;
+    font-weight: 600;
 }
