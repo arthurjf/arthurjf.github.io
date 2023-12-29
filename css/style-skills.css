@@ -9,18 +9,17 @@
 .skills li {
     list-style: none;
     display: inline-block;
-    color: var(--primary-color);
+    color: var(--title-text-color);
     background-color: var(--secondary-color);
     border-radius: 15px;
     padding: 7px;
     margin: 3px;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, font-size 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
 }
 
 .skills li:hover {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, font-size 0.2s ease-in-out, font-weight 0.2s ease-in-out;
-    font-size: 115%;
+    color: var(--background-color);
+    background-color: var(--title-text-color);
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
     font-weight: 600;
 }

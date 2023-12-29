@@ -1,32 +1,31 @@
 :root {
-    --primary-color: #5eead4;
-    --secondary-color: #122b39;
-    --title-text-color: #dde3eb;
-    --text-color: #617288;
-    --background-color: #0f172a;
-    --background-darker-color: #0a0f1b;
-    --botao-slider-espaco: 0px;
-    --text-selection-color: #5eead4;
-}
-
-::selection {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
+    --primary-color: #0d6efd;
+    --secondary-color: #5a64f3;
+    --title-text-color: #fefdff;
+    --text-color: #9f9db0;
+    --background-inner-color: #030218;
+    --background-color: #01010e;
+    --header-height: 80px;
+    --header-space: 40px;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--background-color);
+}
+
+body {
+    background: radial-gradient(circle, var(--background-inner-color), var(--background-color));
 }
 
 body,
 html {
     height: 100%;
     font-family: 'Quicksand', Arial, sans-serif;
-    background-color: var(--background-color);
-    color: #bcbac3;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -35,173 +34,37 @@ h3 {
     color: var(--title-text-color);
 }
 
-h1 {
-    font-size: 32px;
-    font-weight: bold;
+.upper-space {
+    margin-top: var(--header-space);
 }
 
-h2 {
-    font-size: 25px;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-
-.container {
-    position: relative;
-}
-
-.slider-container {
-    position: relative;
+.header {
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.slider {
-    display: flex;
-    width: 400%;
-    height: 100%;
-    transition: transform 0.5s;
-}
-
-.slide {
-    flex: 0 0 25%;
-    height: 100%;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider-button {
-    background-color: transparent;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    color: rgba(97, 114, 136, 0.4);
-    border: none;
-    padding: 10px 20px;
-    height: 120px;
-}
-
-.slider-button i {
-    background-color: transparent;
-    font-size: 60px;
-}
-
-.slider-button:hover {
-    color: var(--title-text-color);
-}
-
-.slider .slide iframe {
-    width: 100%;
-    height: 100%;
-}
-
-#prevButton {
-    left: var(--botao-slider-espaco);
-}
-
-#nextButton {
-    right: var(--botao-slider-espaco);
-}
-
-.title {
-    text-align: right;
-    padding-right: 15px;
+    height: var(--header-height);
 }
 
 .navbar {
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(2, 1, 17, 0.5);
 }
 
-::-webkit-scrollbar {
-    width: 14px;
+.navbar a:hover {
+    color: var(--title-text-color);
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: var(--text-color);
-    border-radius: 10px;
+.navbar a {
+    color: var(--text-color);
 }
 
-::-webkit-scrollbar-track {
-    background-color: var(--secondary-color);
-    border-radius: 10px;
+.navbar-nav {
+    border-radius: 20px;
+    border: 1.5px solid var(--text-color);
 }
 
-.button-flat {
-    font-weight: bold;
-    display: inline-block;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.button-flat,
-.button-flat i {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    transition: color 0.3s, background-color 0.3s;
-    border: none;
-}
-
-.button-flat:hover,
-.button-flat:hover i {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    transition: color 0.1s, background-color 0.1s;
-}
-
-.iframe-container {
-    position: relative;
+.content object {
     width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.iframe-container .video {
-    width: 100%;
-    height: 100%;
-}
-
-.bg-custom-darker {
-    background-color: var(--background-darker-color);
-}
-
-.bi-navbar {
-    font-size: 30px;
-}
-
-.button-navbar {
-    min-width: 80px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-toggler-icon {
-    background-color: var(--background-darker-color);
-}
-
-.navbar-toggler {
-    color: var(--primary-color);
-}
-
-a {
-    color: var(--primary-color);
-}
-
-a:hover {
-    color: var(--primary-color);
+    height: calc(100% - 50px);
+    display: block;
+    padding-top: var(--header-space);
 }

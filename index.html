@@ -14,65 +14,34 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script defer src="js/bootstrap.bundle.js"></script>
     <script defer src="https://kit.fontawesome.com/e0f39b7294.js" crossorigin="anonymous"></script>
-    <script defer src="js/slider.js"></script>
 </head>
 
 <body>
-    <div class="h-100">
-        <div class="v-10">
-            <nav class="navbar navbar-expand-lg bg-custom-darker">
-                <div class="container bg-custom-darker">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse bg-custom-darker" id="navbarText">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item px-2 bg-custom-darker">
-                                <button class="nav-link px-3 button-flat button-navbar" onclick="navigateToSlide(0)"><i class="bi bi-house-door-fill bi-navbar"></i></button>
-                            </li>
-                            <li class="nav-item px-2 bg-custom-darker">
-                                <button class="nav-link px-3 button-flat button-navbar" onclick="navigateToSlide(1)">Transit
-                                    Course!</button>
-                            </li>
-                            <li class="nav-item px-2 bg-custom-darker">
-                                <button class="nav-link px-3 button-flat button-navbar" onclick="navigateToSlide(2)">Hangman</button>
-                            </li>
-                            <li class="nav-item px-2 bg-custom-darker">
-                                <button class="nav-link px-3 button-flat button-navbar" onclick="navigateToSlide(3)">Fitting Mathematics</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Arthur Fernandes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy.html">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <div class="h-90">
-            <div class="text-center">
-                <button id="prevButton" class="slider-button"><i class="bi bi-caret-left-fill"></i></button>
-            </div>
-            <div class="container">
-                <div class="slider-container">
-                    <div class="slider">
-                        <div class="slide">
-                            <iframe src="includes/about.html"></iframe>
-                        </div>
-                        <div class="slide">
-                            <iframe src="includes/transitcourse.html"></iframe>
-                        </div>
-                        <div class="slide">
-                            <iframe src="includes/jogodaforca.html"></iframe>
-                        </div>
-                        <div class="slide">
-                            <iframe src="includes/encaixandomatematica.html"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <button id="nextButton" class="slider-button"><i class="bi bi-caret-right-fill"></i></button>
-            </div>
-        </div>
+    <div class="content about vh-100">
+        <object type="text/html" data="includes/about.html"></object>
     </div>
 </body>
 
