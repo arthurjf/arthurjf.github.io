@@ -68,3 +68,9 @@ h3 {
     display: block;
     padding-top: var(--header-space);
 }
+
+.navbar .btn-custom{
+    color: var(--text-color);
+    border: 2px solid var(--text-color); /* Define uma borda sólida de 2 pixels com cor preta */
+    background-color: transparent;
+}
