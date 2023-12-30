@@ -1,0 +1,74 @@
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.subtitle {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.items-title {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.avatar img {
+    margin: 20px;
+    width: 200px;
+    height: auto;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.avatar img:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.contact {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.contact li {
+    list-style: none;
+    display: inline-block;
+    margin: 3px;
+}
+
+.contact i {
+    font-size: 20px;
+}
+
+.contact li a{
+    color: var(--title-text-color);
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.contact li a i {
+    font-size: 60px;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .contact li a i {
+        font-size: 20px;
+        transition: font-size 0.2s ease-in-out;
+    }
+
+    .contact li a i:hover {
+        font-size: 30px;
+        transition: font-size 0.2s ease-in-out;
+    }
+}
+
+.contact li a:hover {
+    color: var(--primary-color);
+    transition: color 0.2s ease-in-out;
+}
