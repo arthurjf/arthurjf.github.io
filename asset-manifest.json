@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//arthurjf.github.io/static/css/main.3547adee.css",
+    "main.js": "//arthurjf.github.io/static/js/main.f0691961.js",
+    "static/media/bootstrap-icons.woff?": "//arthurjf.github.io/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "//arthurjf.github.io/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "index.html": "//arthurjf.github.io/index.html",
+    "main.3547adee.css.map": "//arthurjf.github.io/static/css/main.3547adee.css.map",
+    "main.f0691961.js.map": "//arthurjf.github.io/static/js/main.f0691961.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3547adee.css",
+    "static/js/main.f0691961.js"
+  ]
+}
