@@ -1,8 +1,22 @@
 import React from 'react';
 import Header from '../includes/Header';
 import '../css/disclaimer.css';
+import '../css/style-skills.css';
+import ProgressBar from '../includes/ProgressBar';
 
 function Skills() {
+    const skillsData = [
+        { skill: 'C# (Unity)', value: 90 },
+        { skill: 'Unity', value: 90 },
+        { skill: 'Blender (3D Modeling)', value: 80 },
+        { skill: 'Git', value: 90 },
+        { skill: 'Python', value: 50 },
+        { skill: 'Unreal Engine', value: 5 },
+        { skill: 'C++ (Unreal Engine', value: 5 },
+        { skill: 'Scrum', value: 70 },
+        { skill: 'React', value: 10 },
+    ];
+
     return (
         <div>
             <Header />
@@ -13,14 +27,25 @@ function Skills() {
                 <div className="disclaimer">
                     <div className="container">
                         <h3 className="title">Disclaimer</h3>
-                        <p className="text">The self-assessed skill ratings provided on this site are based on my personal evaluation and understanding of each skill. They are intended to reflect my perceived proficiency and may vary in interpretation.</p>
+                        <p className="text">
+                            The self-assessed skill ratings provided on this site are based on
+                            my personal evaluation and understanding of each skill. They are
+                            intended to reflect my perceived proficiency and may vary in
+                            interpretation.
+                        </p>
                     </div>
                 </div>
             </div>
             <div className="container content">
+                {skillsData.map((skill, index) => (
+                    <div key={index} className="skill-level">
+                        <div className="title">{skill.skill}</div>
+                        <ProgressBar fillValue={skill.value} />
+                    </div>
+                ))}
             </div>
         </div>
     );
-};
+}
 
 export default Skills;

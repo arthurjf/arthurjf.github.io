@@ -23,3 +23,12 @@
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
     font-weight: 600;
 }
+
+.skill-level {
+margin-bottom: 30px;
+}
+
+.skill-level .title {
+    text-align: left;
+    width: 300px;
+}
