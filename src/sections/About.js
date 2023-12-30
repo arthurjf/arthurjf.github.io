@@ -15,7 +15,7 @@ function About() {
                 />
             </div>
             <h1 className="title">Arthur José Fernandes</h1>
-            <h2 className="subtitle">Unity Programmer</h2>
+            <h2 className="subtitle">Unity Developer</h2>
             <div className="container d-flex justify-content-center align-items-center p-3">
                 <p className="text-center">
                     <b>Hello World 👋</b>. My name is Arthur Fernandes, a game developer from Brazil. Fluent in Portuguese and with an{' '}

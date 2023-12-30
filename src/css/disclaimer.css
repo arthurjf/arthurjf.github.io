@@ -1,0 +1,19 @@
+.disclaimer {
+    padding: 15px;
+    background-color: var(--secondary-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.disclaimer .title,
+.disclaimer .text {
+    color: #e1dff0;
+}
+
+.disclaimer .title {
+    text-align: left;
+}
+
+.disclaimer .text{
+    text-align: justify;
+}
