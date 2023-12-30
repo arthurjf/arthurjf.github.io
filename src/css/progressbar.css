@@ -2,14 +2,17 @@
   --skill-progressbar-bar-color: #7171d3;
   --skill-progressbar-background-color: #363650;
 }
+
 .progress-bar {
   width: 100%;
   margin-top: 2px;
   height: 17px;
   background-color: var(--skill-progressbar-background-color);
+  overflow: hidden;
 }
 
 .progress-fill {
   height: 100%;
   background-color: var(--skill-progressbar-bar-color);
+  transition: width 1s ease-in-out;
 }

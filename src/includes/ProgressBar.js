@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../css/progressbar.css';
 
 const ProgressBar = ({ fillValue }) => {
+  const progressBarRef = useRef(null);
+
+  useEffect(() => {
+    if (progressBarRef.current) {
+      progressBarRef.current.style.width = `${fillValue}%`;
+    }
+  }, [fillValue]);
+
   return (
     <div className="progress-bar">
-      <div className="progress-fill" style={{ width: `${fillValue}%` }}></div>
+      <div ref={progressBarRef} className="progress-fill" style={{ width: '0%' }}></div>
     </div>
   );
 };
