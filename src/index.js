@@ -8,11 +8,11 @@ import Privacy from './sections/Privacy';
 
 const Root = (
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="about" element={<About />} />
-        <Route path="privacy" element={<Privacy />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
