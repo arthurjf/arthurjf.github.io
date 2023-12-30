@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../includes/Header';
+import '../css/style-about.css';
+import '../css/style-skills.css';
 
 function About() {
     return (

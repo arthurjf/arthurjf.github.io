@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <Header />
-            <div class="container content h-100">
+            <div className="container content h-100">
                 <h1>Privacy Policy</h1>
                 <p>This Privacy Policy describes how we, Overnight Games, collect, use, store, and protect the personal information of users who visit our website. We value the privacy of our users and are committed to ensuring the security and confidentiality of the information provided. By using our website, you agree to the terms of this policy.</p>
 

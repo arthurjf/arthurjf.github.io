@@ -18,17 +18,21 @@
 
 body {
   background: radial-gradient(circle, var(--background-inner-color), var(--background-color));
-  color: var(--text-color) !important;
+  color: var(--text-color);
 }
 
 h1,
 h2,
-h3 {
-  color: var(--title-text-color) !important;
+h3,
+.container.content h1,
+.container.content h2,
+.container.content h3 {
+  color: var(--title-text-color);
 }
 
-p{
-  color: var(--text-color) !important;
+p,
+.container.content {
+  color: var(--text-color);
 }
 
 .header {
