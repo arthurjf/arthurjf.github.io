@@ -1,16 +1,12 @@
-.title,
-.subtitle,
-.items-title {
+.about .title,
+.about .subtitle,
+.about .items-title {
     text-align: center;
 }
 
-.title {
-    color: var(--title-text-color);
-}
-
-.subtitle {
+.about .subtitle {
     text-transform: uppercase;
-    color: var(--secondary-color);
+    color: var(--secondary-color) !important;
 }
 
 .items-title {

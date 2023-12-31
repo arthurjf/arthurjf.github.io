@@ -7,7 +7,7 @@ function About() {
     return (
         <div>
             <Header />
-            <div className="container content">
+            <div className="container content about">
                 <div className="text-center mt-5 avatar">
                     <img
                         src="https://media.licdn.com/dms/image/D4D03AQEUh-kbQznOWw/profile-displayphoto-shrink_800_800/0/1678217866546?e=1705536000&v=beta&t=kNtuvHIiA--4eSzmLlTyN8O2MWblfUoJLZkW7XN1ur4"
