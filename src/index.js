@@ -8,6 +8,7 @@ import Privacy from './sections/Privacy';
 import Skills from './sections/Skills';
 import TransitCourse from './sections/projects/TransitCourse';
 import NotFound from './sections/NotFound';
+import Projects from './sections/Projects';
 
 const Root = (
   <React.StrictMode>
@@ -17,6 +18,7 @@ const Root = (
         <Route path="about" element={<About />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="skills" element={<Skills />} />
+        <Route path="projects" element={<Projects />} />
         <Route path="projects/transitcourse" element={<TransitCourse />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
