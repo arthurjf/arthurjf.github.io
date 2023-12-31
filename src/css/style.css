@@ -64,10 +64,6 @@ p,
   padding: 0;
 }
 
-a {
-  color: var(--primary-color);
-}
-
 .btn-custom {
   color: var(--title-text-color) !important;
   background-color: var(--primary-color) !important;
