@@ -20,7 +20,7 @@
     color: var(--background-color);
 }
 
-.skills li:hover {
+.project .skills li:hover {
     color: var(--title-text-color);
     background-color: var(--background-color);
 }
