@@ -1,21 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../css/style.css';
 import '../css/navbar.css';
 
 function Header() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <header>
-            <nav className="navbar navbar-expand-lg fixed-top">
+            <nav className={`navbar navbar-expand-lg fixed-top ${isMenuOpen ? 'expanded' : ''}`}>
                 <div className="container">
                     <NavLink className="navbar-brand" to="/about">Arthur Fernandes</NavLink>
                     <div className="d-md-none">
-                        <button className="btn btn-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            Menu
+                        <button
+                            className="btn btn-nav"
+                            type="button"
+                            onClick={toggleMenu}
+                            aria-expanded={isMenuOpen}
+                            aria-label="Toggle navigation"
+                        >
+                            {isMenuOpen ? (
+                                <i className="bi bi-x nav-icon"></i>
+                            ) : (
+                                <i className="bi bi-list nav-icon"></i>
+                            )}
                         </button>
                     </div>
-                    <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <div className={`collapse navbar-collapse justify-content-center ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <NavLink className="nav-link first-item" activeClassName="active" exact to="/about">About Me</NavLink>

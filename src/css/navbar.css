@@ -62,3 +62,7 @@
 .navbar .navbar-brand:hover {
     color: var(--primary-color);
 }
+
+.nav-icon{
+    font-size: 20px;
+}
