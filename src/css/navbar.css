@@ -33,11 +33,21 @@
     background-color: var(--title-text-color);
 }
 
+.navbar-nav .nav-link {
+    font-weight: 600;
+}
+
 .nav-item a:hover,
 .navbar-nav .nav-link.active {
-    font-weight: 600;
-    background-color: var(--title-text-color);
     color: var(--background-color);
+}
+
+.nav-item a:hover {
+    background-color: rgba(254, 253, 255, 0.7);
+}
+
+.navbar-nav .nav-link.active {
+    background-color: var(--title-text-color);
 }
 
 .nav-item .first-item {
@@ -63,6 +73,6 @@
     color: var(--primary-color);
 }
 
-.nav-icon{
+.nav-icon {
     font-size: 20px;
 }
