@@ -46,14 +46,14 @@ const Projects = () => {
             date: 'out 2021 - jan 2022',
         },
         {
-            imageUrl: './res/img/projects/transitcourse.png',
-            title: 'Jogo da Forca',
+            imageUrl: './res/img/projects/desafiodaforca.png',
+            title: 'Desafio da Forca',
             description: 'Developed a hangman game for Android apps, featuring preset word categories and the thrilling option to create custom games.',
             skills: [skillsData[0], skillsData[1], skillsData[3]],
             date: 'jul 2023 - jul 2023',
         },
         {
-            imageUrl: './res/img/projects/transitcourse.png',
+            imageUrl: './res/img/projects/encaixandomatematica.png',
             title: 'Encaixando Matemática',
             description: 'Developed an educational game as part of my Thesis focused on math learning.',
             skills: [skillsData[0], skillsData[1], skillsData[3]],
