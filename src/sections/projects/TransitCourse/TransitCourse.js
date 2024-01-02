@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../includes/Header';
+import Header from '../../../includes/Header';
 import { Link } from 'react-router-dom';
 
 function TransitCourse() {
