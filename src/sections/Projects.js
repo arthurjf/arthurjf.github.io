@@ -66,7 +66,12 @@ const Projects = () => {
             <Header />
             <div className="container content">
                 <h1>Projects</h1>
+
                 <p>These are the projects I have worked on or am currently working on.</p>
+
+                <hr></hr>
+
+                <h2>Published Projects</h2>
                 <div className="row">
                     {projectData.map((project, index) => (
                         <div key={index} className="col-lg-4 mb-4">
@@ -80,6 +85,10 @@ const Projects = () => {
                         </div>
                     ))}
                 </div>
+
+                {/*<hr></hr>
+                
+                <h2>Abandoned Projects</h2>*/}
             </div>
         </div>
     );
