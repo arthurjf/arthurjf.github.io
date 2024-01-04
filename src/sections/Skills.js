@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../includes/Header';
+import ProgressBar from '../includes/ProgressBar';
 import '../css/disclaimer.css';
 import '../css/style-skills.css';
-import ProgressBar from '../includes/ProgressBar';
 
 function Skills() {
     const skillsData = [
@@ -13,7 +13,7 @@ function Skills() {
         { skill: 'Python', value: 50 },
         { skill: 'Unreal Engine', value: 5 },
         { skill: 'C++ (Unreal Engine', value: 5 },
-        { skill: 'Scrum', value: 70 },
+        { skill: 'Scrum', value: 30 },
         { skill: 'React', value: 10 },
     ];
 
