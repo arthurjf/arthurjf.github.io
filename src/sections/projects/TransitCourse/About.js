@@ -29,7 +29,7 @@ function TransitCourse() {
                         <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">Details of my contributions</h2>
                         <ul>
                             <li>Created all 3d Models, unwrapping and texturing.</li>
-                            <li>Designed the entire game.</li>
+                            <li>Designed the game.</li>
                             <li>Created all UI 2D Graphics.</li>
                             <li>Designed over 10 level segments.</li>
                             <li>Created custom shaders for terrain color and shop background.</li>
