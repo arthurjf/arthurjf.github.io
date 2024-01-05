@@ -9,7 +9,7 @@ const storeIcons = {
 
 const ProjectCard = ({ imageUrl, title, description, skills, date, highlightedIcons }) => {
     return (
-        <Link to="/projects/transitcourse" className="card card-button mt-4 project">
+        <Link to="/projects/transitcourse" className="card mt-4 project">
             <img src={imageUrl} className="card-img-top" alt="Project" />
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>

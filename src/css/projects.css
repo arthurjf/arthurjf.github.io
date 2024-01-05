@@ -1,4 +1,10 @@
+:root {
+    --project-background-color: #eaeafa;
+    --project-date-color: #a8a8a8;
+}
+
 .project {
+    background-color: var(--project-background-color);
     height: 100%;
     text-decoration: none;
     overflow: hidden;
@@ -12,6 +18,10 @@
 
 .project .card-title {
     font-weight: bold;
+}
+
+.project .date {
+    color: var(--project-date-color);
 }
 
 .project .description {

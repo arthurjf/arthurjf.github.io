@@ -14,7 +14,9 @@ import Projects from './sections/Projects';
 import NotFound from './sections/NotFound';
 
 // Specific project components
-import TransitCourse from './sections/projects/TransitCourse/TransitCourse';
+import TransitCourse from './sections/projects/TransitCourse/About';
+
+// Transit Course!
 import PrivacyDesafioDaForca from './sections/projects/DesafioDaForca/Privacy';
 
 const Root = (

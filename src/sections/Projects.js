@@ -8,7 +8,7 @@ const Projects = () => {
     const projectData = [
         {
             imageUrl: './res/img/projects/transitcourse.png',
-            title: 'Transit Course',
+            title: 'Transit Course!',
             description: 'I crafted a game using Unity and 3ds Max, acquiring skills in project structuring, best organizational practices, and flexibility.',
             skills: ['Unity', 'C# (Unity)', 'Git', '3ds Max (3D Modeling)'],
             date: 'out 2021 - jan 2022',
