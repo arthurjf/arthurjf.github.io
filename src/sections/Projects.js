@@ -13,6 +13,7 @@ const Projects = () => {
             skills: ['Unity', 'C# (Unity)', 'Git', '3ds Max (3D Modeling)'],
             date: 'out 2021 - jan 2022',
             highlightedIcons: ['googleplay', 'android'],
+            linkurl: 'transitcourse',
         },
         {
             imageUrl: './res/img/projects/desafiodaforca.png',
@@ -21,6 +22,7 @@ const Projects = () => {
             skills: ['Unity', 'C# (Unity)', 'Git'],
             date: 'jul 2023 - jul 2023',
             highlightedIcons: ['googleplay', 'android'],
+            linkurl: 'desafiodaforca',
         },
         {
             imageUrl: './res/img/projects/encaixandomatematica.png',
@@ -29,14 +31,16 @@ const Projects = () => {
             skills: ['Unity', 'C# (Unity)', 'Git'],
             date: 'jul 2023 - dez 2023',
             highlightedIcons: ['googleplay', 'android'],
+            linkurl: 'encaixandomatematica',
         },
         {
             imageUrl: './res/img/projects/werewolfdungeon.png',
             title: 'Werewolf Dungeon',
-            description: "I'm developing a cooperative horror game.",
-            skills: ['Unity', 'C# (Unity)', 'Git'],
+            description: "I'm developing a cooperative horror game about escaping a Werewolf Dungeon.",
+            skills: ['Unity', 'C# (Unity)', 'Git', 'Blender'],
             date: 'jan 2024 - the moment',
             highlightedIcons: ['googleplay', 'android'],
+            linkurl: 'werewolfdungeon',
         },
     ];
 
@@ -59,14 +63,14 @@ const Projects = () => {
             <div className="container content">
                 <h1>Projects</h1>
                 <p>These are the projects I have worked on or am currently working on.</p>
-                <hr />
+                <hr className="mb-5" />
                 <section>
-                    <h2 className="mt-5">Published Projects</h2>
+                    <h2>Published Projects</h2>
                     {renderProjects(publishedProjects)}
                 </section>
-                <hr />
+                <hr className="mt-5 mb-5" />
                 <section>
-                    <h2 className="mt-5">Ongoing Projects 🔨</h2>
+                    <h2>Ongoing Projects 🔨</h2>
                     {renderProjects(ongoingProjects)}
                 </section>
             </div>

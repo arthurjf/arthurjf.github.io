@@ -7,9 +7,9 @@ const storeIcons = {
     android: 'bi bi-android2'
 };
 
-const ProjectCard = ({ imageUrl, title, description, skills, date, highlightedIcons }) => {
+const ProjectCard = ({ imageUrl, title, description, skills, date, highlightedIcons, linkurl }) => {
     return (
-        <Link to="/projects/transitcourse" className="card mt-4 project">
+        <Link to={"/projects/" + linkurl} className="card mt-4 project">
             <img src={imageUrl} className="card-img-top" alt="Project" />
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>

@@ -38,6 +38,7 @@ h1,
 .container.content h1,
 .content h1 {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 p,
@@ -91,4 +92,12 @@ p,
 .btn-outline-primary:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+li {
+  color: var(--text-color);
 }
