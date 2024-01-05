@@ -20,7 +20,7 @@ function TransitCourse() {
                         </div>
                         <ul className="skills m-4">
                             <li>Unity</li>
-                            <li>C# (Unity)</li>
+                            <li>Unity</li>
                             <li>C# (Unity)</li>
                             <li>3ds Max (3D Modeling)</li>
                             <li>Android</li>
