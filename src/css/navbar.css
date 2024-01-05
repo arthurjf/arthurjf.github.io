@@ -2,77 +2,77 @@
     --navbar-border-radius: 20px;
 }
 
-.navbar {
+header .navbar {
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     background-color: rgba(2, 1, 17, 0.5);
 }
 
-.navbar a {
+header .navbar a {
     color: var(--text-color);
 }
 
-.navbar-nav {
+header .navbar-nav {
     border-radius: 20px;
     border: 1.5px solid var(--text-color);
 }
 
-.navbar-nav .nav-link {
+header .navbar-nav .nav-link {
     transition: all 0.3s ease;
 }
 
-.navbar .btn-nav {
+header .navbar .btn-nav {
     color: var(--text-color);
     border: 2px solid var(--text-color);
     background-color: transparent;
 }
 
-.navbar .btn-nav:hover {
+header .navbar .btn-nav:hover {
     color: var(--background-color);
     border: 2px solid var(--text-color);
     background-color: var(--title-text-color);
 }
 
-.navbar-nav .nav-link {
+header .navbar-nav .nav-link {
     font-weight: 600;
 }
 
-.nav-item a:hover,
-.navbar-nav .nav-link.active {
+header .nav-item a:hover,
+header .navbar-nav .nav-link.active {
     color: var(--background-color);
 }
 
-.nav-item a:hover {
+header .nav-item a:hover {
     background-color: rgba(254, 253, 255, 0.7);
 }
 
-.navbar-nav .nav-link.active {
+header .navbar-nav .nav-link.active {
     background-color: var(--title-text-color);
 }
 
-.nav-item .first-item {
+header .nav-item .first-item {
     border-radius: var(--navbar-border-radius) var(--navbar-border-radius) 0 0;
 }
 
-.nav-item .last-item {
+header .nav-item .last-item {
     border-radius: 0 0 var(--navbar-border-radius) var(--navbar-border-radius);
 }
 
 @media (min-width: 768px) {
-    .nav-item .first-item {
+    header .nav-item .first-item {
         border-radius: var(--navbar-border-radius) 0 0 var(--navbar-border-radius);
     }
 
-    .nav-item .last-item {
+    header .nav-item .last-item {
 
         border-radius: 0 var(--navbar-border-radius) var(--navbar-border-radius) 0;
     }
 }
 
-.navbar .navbar-brand:hover {
+header .navbar .navbar-brand:hover {
     color: var(--primary-color);
 }
 
-.nav-icon {
+header .nav-icon {
     font-size: 20px;
 }
