@@ -34,6 +34,18 @@ function TransitCourse() {
                             <li>Designed over 10 level segments.</li>
                             <li>Created custom shaders for terrain color and shop background.</li>
                         </ul>
+                        <div className="d-flex flex-column justify-content-center align-items-center p-5">
+                            <h2 className="text-uppercase">Screenshots</h2>
+                            <p className="text-justify">The following screenshots were taken during development.</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="./res/img/projects/transitcourse/screenshot1.jpg" class="img-fluid" alt="Screenshot 1"></img>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="./res/img/projects/transitcourse/screenshot2.jpg" class="img-fluid" alt="Screenshot 2"></img>
+                                </div>
+                            </div>
+                        </div >
                     </div>
                 </div>
                 <Disclaimer description={"This project was removed from Google Play due to account issues."} additionalContainerTags={"col-12 col-md-8 offset-md-2"} />
