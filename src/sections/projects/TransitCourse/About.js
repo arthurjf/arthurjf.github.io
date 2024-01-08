@@ -26,10 +26,10 @@ function TransitCourse() {
                             <li>Google Play</li>
                         </ul>
                         <p className="m-4 text-justify"><strong>Transit Course!</strong> is an engaging casual game offering an endlessly generated map. Players embark on a journey to collect coins, a currency used to acquire an array of vehicles, each boasting unique statistics and features. <br />The gameplay involves players maneuvering their vehicles along the road by pressing and holding their finger on the screen. Releasing the touch instantly halts the vehicle's movement, adding a strategic element to the gameplay.</p>
-                        <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">Details of my contributions</h2>
+                        <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">My contributions</h2>
                         <ul>
                             <li>Created all 3d Models, unwrapping and texturing.</li>
-                            <li>Designed the game.</li>
+                            <li>Designed and coded the game.</li>
                             <li>Created all UI 2D Graphics.</li>
                             <li>Designed over 10 level segments.</li>
                             <li>Created custom shaders for terrain color and shop background.</li>

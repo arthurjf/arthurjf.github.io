@@ -111,11 +111,3 @@ li {
 .text-link:hover {
   color: var(--title-text-color);
 }
-
-*:focus{
-  color: inherit !important;
-}
-
-*:active{
-  color: inherit !important;
-}

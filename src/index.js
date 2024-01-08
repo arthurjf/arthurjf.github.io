@@ -13,10 +13,11 @@ import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import NotFound from './sections/NotFound';
 
-// Specific project components
+// Transit Course
 import TransitCourse from './sections/projects/TransitCourse/About';
 
-// Transit Course!
+// Desafio da Forca
+import DesafioDaForca from './sections/projects/DesafioDaForca/About';
 import PrivacyDesafioDaForca from './sections/projects/DesafioDaForca/Privacy';
 
 const Root = (
@@ -29,6 +30,7 @@ const Root = (
         <Route path="skills" element={<Skills />} />
         <Route path="projects" element={<Projects />} />
         <Route path="projects/transitcourse" element={<TransitCourse />} />
+        <Route path="projects/desafiodaforca" element={<DesafioDaForca />} />
         <Route path="projects/desafiodaforca/privacy" element={<PrivacyDesafioDaForca />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
