@@ -20,7 +20,7 @@ function About() {
                 <div className="container  d-flex justify-content-center align-items-center p-3">
                     <p className="text-center">
                         <b>Hello World 👋</b>. My name is Arthur Fernandes, a game developer from Brazil. Fluent in Portuguese and with an{' '}
-                        <a href="https://www.efset.org/cert/B8Ngby" target="_blank" rel="noopener noreferrer">
+                        <a className="text-link" href="https://www.efset.org/cert/B8Ngby" target="_blank" rel="noopener noreferrer">
                             C1 Advanced
                         </a>{' '}
                         level of English proficiency, I specialize in Indie game development with 3 years of experience using the Unity game engine.

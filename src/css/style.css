@@ -101,3 +101,21 @@ p,
 li {
   color: var(--text-color);
 }
+
+.text-link {
+  color: var(--secondary-color);
+  font-weight: bold;
+  transition: color 0.1s ease-in-out;
+}
+
+.text-link:hover {
+  color: var(--title-text-color);
+}
+
+*:focus{
+  color: inherit !important;
+}
+
+*:active{
+  color: inherit !important;
+}

@@ -69,6 +69,14 @@ header .nav-item .last-item {
     }
 }
 
+header .navbar .navbar-brand {
+    color: var(--title-text-color);
+}
+
+header .navbar .navbar-brand:focus {
+    color: var(--title-text-color) !important;
+}
+
 header .navbar .navbar-brand:hover {
     color: var(--primary-color);
 }

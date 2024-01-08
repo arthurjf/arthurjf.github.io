@@ -34,13 +34,13 @@ const Projects = () => {
             linkurl: 'encaixandomatematica',
         },
         {
-            imageUrl: './res/img/projects/werewolfdungeon.png',
-            title: 'Werewolf Dungeon',
-            description: "I'm developing a cooperative horror game about escaping a Werewolf Dungeon.",
+            imageUrl: './res/img/projects/dreamrooms.png',
+            title: 'Dreamrooms',
+            description: "No description available yet.",
             skills: ['Unity', 'C# (Unity)', 'Git', 'Blender'],
             date: 'jan 2024 - the moment',
-            highlightedIcons: ['googleplay', 'android'],
-            linkurl: 'werewolfdungeon',
+            highlightedIcons: ['steam', 'windows'],
+            linkurl: 'dreamrooms',
         },
     ];
 

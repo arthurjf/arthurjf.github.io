@@ -4,7 +4,9 @@ import '../css/style-skills.css';
 
 const storeIcons = {
     googleplay: 'bi bi-google-play',
-    android: 'bi bi-android2'
+    android: 'bi bi-android2',
+    steam: 'bi bi-steam',
+    windows: 'bi bi-windows',
 };
 
 const ProjectCard = ({ imageUrl, title, description, skills, date, highlightedIcons, linkurl }) => {
