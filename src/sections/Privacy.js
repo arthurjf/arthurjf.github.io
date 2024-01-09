@@ -13,7 +13,7 @@ function Privacy() {
                 <h2><strong>{t("privacyPolicy.collectionOfPersonalInfo.title")}</strong></h2>
                 <p>{t("privacyPolicy.collectionOfPersonalInfo.description")}</p>
 
-                <h2><strong>{t("useOfPersonalInfo.title")}</strong></h2>
+                <h2><strong>{t("privacyPolicy.useOfPersonalInfo.title")}</strong></h2>
                 <p>{t("privacyPolicy.useOfPersonalInfo.description")}</p>
 
                 <h2><strong>{t("privacyPolicy.sharingOfInfo.title")}</strong></h2>
