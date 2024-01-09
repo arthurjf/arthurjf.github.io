@@ -52,7 +52,7 @@ function DesafioDaForca() {
                             </Carousel.Item>
                         </Carousel>
                         <ul className="skills m-4">
-                            <li>Unity</li>=
+                            <li>Unity</li>
                             <li>C# (Unity)</li>
                             <li>AdMob</li>
                             <li>3ds Max (3D Modeling)</li>
