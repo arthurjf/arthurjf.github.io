@@ -19,6 +19,11 @@
     cursor: pointer;
     color: var(--text-color);
     background-color: transparent;
+    transition: color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+}
+
+.footer .language-buttons button:hover {
+    color: var(--primary-color);
 }
 
 .footer .language-buttons button.active {
