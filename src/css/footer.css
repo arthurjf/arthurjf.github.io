@@ -1,0 +1,27 @@
+:root {
+    --footer-background: #141129;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--footer-background);
+}
+
+.footer .language-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .language-buttons button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+.footer .language-buttons button.active {
+    color: var(--title-text-color);
+    font-weight: bold;
+}

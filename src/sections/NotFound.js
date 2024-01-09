@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../includes/Header';
 import '../css/notfound.css';
 
 const NotFound = () => {
     return (
         <div>
-            <Header />
             <div className="container content not-found">
                 <h1 className="text-center title">404</h1>
                 <h2 className="text-center subtitle">Not Found :(</h2>

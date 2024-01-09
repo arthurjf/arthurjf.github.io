@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../includes/Header';
 import ProgressBar from '../includes/ProgressBar';
 import '../css/disclaimer.css';
 import '../css/style-skills.css';
@@ -19,7 +18,6 @@ function Skills() {
 
     return (
         <div>
-            <Header />
             <div className="content">
                 <div className="container">
                     <h1>Self-assessed Skills</h1>

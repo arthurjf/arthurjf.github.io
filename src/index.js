@@ -20,21 +20,49 @@ import TransitCourse from './sections/projects/TransitCourse/About';
 import DesafioDaForca from './sections/projects/DesafioDaForca/About';
 import PrivacyDesafioDaForca from './sections/projects/DesafioDaForca/Privacy';
 
+import global_en from "./translations/en/global.json";
+import global_ptbr from "./translations/pt-br/global.json";
+import i18next from 'i18next';
+import { I18nextProvider } from 'react-i18next';
+import Footer from './includes/Footer';
+import Header from './includes/Header';
+
+const LANG_STORAGE_KEY = 'preferredLanguage';
+const userLanguage = localStorage.getItem(LANG_STORAGE_KEY) || window.navigator.language || 'en';
+
+i18next.init({
+  interpolation: { escapeValue: false },
+  lng: userLanguage,
+  resources: {
+    en: {
+      global: global_en,
+    },
+    'pt-BR': {
+      global: global_ptbr,
+    },
+  },
+  fallbackLng: 'en',
+});
+
 const Root = (
   <React.StrictMode>
-    <HashRouter>
-      <Routes>
-        <Route exact path="" element={<App />} />
-        <Route path="about" element={<About />} />
-        <Route path="privacy" element={<Privacy />} />
-        <Route path="skills" element={<Skills />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="projects/transitcourse" element={<TransitCourse />} />
-        <Route path="projects/desafiodaforca" element={<DesafioDaForca />} />
-        <Route path="projects/desafiodaforca/privacy" element={<PrivacyDesafioDaForca />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </HashRouter>
+    <I18nextProvider i18n={i18next}>
+      <HashRouter>
+        <Header />
+        <Routes>
+          <Route exact path="" element={<App />} />
+          <Route path="about" element={<About />} />
+          <Route path="privacy" element={<Privacy />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="projects/transitcourse" element={<TransitCourse />} />
+          <Route path="projects/desafiodaforca" element={<DesafioDaForca />} />
+          <Route path="projects/desafiodaforca/privacy" element={<PrivacyDesafioDaForca />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </HashRouter>
+    </I18nextProvider>
   </React.StrictMode>
 );
 

@@ -1,12 +1,13 @@
 import React from 'react';
-import Header from '../includes/Header';
 import '../css/style-about.css';
 import '../css/style-skills.css';
+import { useTranslation } from 'react-i18next';
 
 function About() {
+    const { t } = useTranslation("global");
+
     return (
         <div>
-            <Header />
             <div className="container content about">
                 <div className="text-center mt-5 avatar">
                     <img
@@ -19,20 +20,14 @@ function About() {
                 <h2 className="subtitle">Unity Developer</h2>
                 <div className="container  d-flex justify-content-center align-items-center p-3">
                     <p className="text-center">
-                        <b>Hello World 👋</b>. My name is Arthur Fernandes, a game developer from Brazil. Fluent in Portuguese and with an{' '}
-                        <a className="text-link" href="https://www.efset.org/cert/B8Ngby" target="_blank" rel="noopener noreferrer">
-                            C1 Advanced
-                        </a>{' '}
-                        level of English proficiency, I specialize in Indie game development with 3 years of experience using the Unity game engine.
-                        Additionally, I have advanced skills in C#, proficiency in modeling and texturing using Blender, and a solid understanding
-                        of shader programming.
+                        {t("aboutMe.description")}
                     </p>
                 </div>
                 <div className="container mt-4">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="p-3 mb-3">
-                                <h3 className="items-title">Skills</h3>
+                                <h3 className="items-title">{t("aboutMe.skills.title")}</h3>
                                 <ul className="skills">
                                     <li>Unity</li>
                                     <li>C# (Unity)</li>
@@ -47,7 +42,7 @@ function About() {
                         </div>
                         <div className="col-md-6">
                             <div className="p-3 mb-3">
-                                <h3 className="items-title">Contact</h3>
+                                <h3 className="items-title">{t("aboutMe.contact.title")}</h3>
                                 <ul className="contact">
                                     <li>
                                         <a href="mailto:arthurjose.dev@gmail.com" data-bs-toggle="tooltip" data-bs-placement="top" title="arthurjose.dev@gmail.com">
@@ -80,7 +75,7 @@ function About() {
                     </div>
                     <div className="col-12 d-flex justify-content-center align-items-center">
                         <a className="btn btn-custom" href="./res/CV.pdf" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-file-earmark-arrow-down-fill"></i> View Résumé
+                            <i className="bi bi-file-earmark-arrow-down-fill"></i> {t("aboutMe.button.resume.description")}
                         </a>
                     </div>
                 </div>

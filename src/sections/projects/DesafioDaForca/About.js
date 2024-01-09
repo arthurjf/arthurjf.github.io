@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import Header from '../../../includes/Header';
 import '../../../css/videoplayer.css';
 import '../../../css/style-skills.css';
 import '../../../css/project-carousel.css';
@@ -8,7 +7,6 @@ import '../../../css/project-carousel.css';
 function DesafioDaForca() {
     return (
         <div>
-            <Header />
             <div className="content">
                 <div className="container">
                     <div className="col-12 col-md-8 offset-md-2 ">

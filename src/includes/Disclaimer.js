@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/disclaimer.css';
 
-function Header({ description, additionalContainerTags }) {
+function Disclaimer({ description, additionalContainerTags }) {
     return (
         <div className="disclaimer">
             <div className="container">
@@ -16,4 +16,4 @@ function Header({ description, additionalContainerTags }) {
     );
 }
 
-export default Header;
+export default Disclaimer;

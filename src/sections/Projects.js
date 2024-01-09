@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../includes/Header';
 import ProjectCard from '../includes/ProjectCard';
 import '../css/projects.css';
 import '../css/navbar-projects.css';
@@ -59,7 +58,6 @@ const Projects = () => {
 
     return (
         <div>
-            <Header />
             <div className="container content">
                 <h1>Projects</h1>
                 <p>These are the projects I have worked on or am currently working on.</p>

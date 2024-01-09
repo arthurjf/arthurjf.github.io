@@ -1,0 +1,64 @@
+{
+    "aboutMe": {
+        "description": "Hellow World 👋. Me chamo Arthur Fernandes, um desenvolvedor de jogos do Brasil. Fluente em Português e com um nível Avançado C1 de proficiência em inglês, sou especializado no desenvolvimento de jogos Indie com 3 anos de experiência usando a engine Unity. Além disso, possuo habilidades avançadas em C#, proficiência em modelagem e texturização usando Blender, e um sólido conhecimento em programação de shaders.",
+        "contact": {
+            "title": "Contato"
+        },
+        "skills": {
+            "title": "Habilidades"
+        },
+        "button.resume": {
+            "description": "Ver Currículo"
+        }
+    },
+    "privacyPolicy": {
+        "title": "Política de Privacidade",
+        "description": "Esta Política de Privacidade descreve como nós, Overnight Games, coletamos, usamos, armazenamos e protegemos as informações pessoais dos usuários que visitam nosso site e utilizam nossos jogos. Valorizamos a privacidade de nossos usuários e estamos comprometidos em garantir a segurança e confidencialidade das informações fornecidas. Ao utilizar nosso site e jogos, você concorda com os termos desta política.",
+        "collectionOfPersonalInfo": {
+            "title": "Coleta de Informações Pessoais",
+            "description": "Durante sua interação com nosso site e jogos, podemos coletar informações pessoais voluntariamente fornecidas por você, como seu nome, endereço de e-mail e informações de contato. Essas informações são coletadas quando você preenche formulários de contato, se inscreve em nossa newsletter, cria uma conta, faz compras dentro do jogo ou interage conosco por meio do site ou jogos."
+        },
+        "useOfPersonalInfo": {
+            "title": "Uso de Informações Pessoais",
+            "description": "As informações pessoais que coletamos são usadas para fornecer informações sobre nossos jogos, atualizações, promoções e notícias relacionadas aos nossos serviços. Também podemos utilizar essas informações para personalizar sua experiência de jogo, responder às suas perguntas, oferecer suporte ao cliente e processar transações."
+        },
+        "sharingOfInfo": {
+            "title": "Compartilhamento de Informações",
+            "description": "Não compartilhamos, vendemos, alugamos ou divulgamos suas informações pessoais a terceiros, exceto nos seguintes casos:",
+            "listItems": [
+                "Quando temos seu consentimento explícito para compartilhar as informações.",
+                "Quando necessário para cumprir obrigações legais, como responder a uma ordem judicial ou processo legal.",
+                "Quando necessário para proteger nossos direitos, propriedade ou segurança, bem como a segurança de nossos usuários ou do público em geral."
+            ]
+        },
+        "dataSecurity": {
+            "title": "Segurança dos Dados",
+            "description": "Implementamos medidas de segurança apropriadas para proteger as informações pessoais dos usuários contra acesso não autorizado, uso indevido, alteração ou divulgação. Utilizamos tecnologias de criptografia e procedimentos de segurança padrão do setor para proteger essas informações."
+        },
+        "cookiesAndTracking": {
+            "title": "Cookies e Tecnologias de Rastreamento",
+            "description": "Nosso site e jogos podem utilizar cookies e outras tecnologias de rastreamento para aprimorar a experiência do usuário, analisar o tráfego do site, personalizar o conteúdo e melhorar nossos jogos com base em suas preferências. Essas informações são coletadas de forma anônima e não estão vinculadas a informações pessoalmente identificáveis."
+        },
+        "yourConsentAndUserRights": {
+            "title": "Seu Consentimento e Direitos do Usuário",
+            "description": "Ao utilizar nosso site e jogos, você consente com a coleta e uso de informações pessoais conforme descrito nesta Política de Privacidade. Você tem o direito de acessar, corrigir ou solicitar a exclusão de suas informações pessoais a qualquer momento. Para exercer esses direitos ou se tiver perguntas ou preocupações sobre nossas práticas de privacidade, entre em contato conosco no endereço de e-mail arthurjose.dev@gmail.com."
+        },
+        "changesToPolicy": {
+            "title": "Alterações nesta Política de Privacidade",
+            "description": "Podemos atualizar periodicamente esta Política de Privacidade. Recomendamos que você revise regularmente esta página para se manter informado sobre quaisquer alterações. As alterações terão efeito assim que forem publicadas nesta página."
+        },
+        "contactUs": {
+            "title": "Entre em Contato",
+            "description": "Se você tiver alguma dúvida, comentário ou preocupação sobre esta Política de Privacidade, entre em contato conosco no endereço de e-mail arthurjose.dev@gmail.com."
+        },
+        "lastUpdated": "Última Atualização:",
+        "appreciationMessage": "Agradecemos sua confiança em nós e por ler nossa Política de Privacidade.",
+        "date": "1 Janeiro, 2024"
+    },
+    "header": {
+        "aboutMe": "Sobre Mim",
+        "skills": "Habilidades",
+        "projects": "Projetos",
+        "privacyPolicy": "Política de Privacidade"
+    }
+}

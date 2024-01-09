@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../css/style.css';
 import '../css/navbar.css';
+import { useTranslation } from 'react-i18next';
 
 function Header() {
+    const { t } = useTranslation("global");
+
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -33,16 +35,16 @@ function Header() {
                     <div className={`collapse navbar-collapse justify-content-center ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink className="nav-link first-item" activeClassName="active" exact to="/about">About Me</NavLink>
+                                <NavLink className="nav-link first-item" activeClassName="active" exact to="/about">{t("header.aboutMe")}</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link middle-item" activeClassName="active" to="/skills">Skills</NavLink>
+                                <NavLink className="nav-link middle-item" activeClassName="active" to="/skills">{t("header.skills")}</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link middle-item" activeClassName="active" to="/projects">Projects</NavLink>
+                                <NavLink className="nav-link middle-item" activeClassName="active" to="/projects">{t("header.projects")}</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link last-item" activeClassName="active" to="/privacy">Privacy Policy</NavLink>
+                                <NavLink className="nav-link last-item" activeClassName="active" to="/privacy">{t("header.privacyPolicy")}</NavLink>
                             </li>
                         </ul>
                     </div>

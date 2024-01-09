@@ -1,0 +1,64 @@
+{
+    "aboutMe": {
+        "description": "Hello World 👋. My name is Arthur Fernandes, a game developer from Brazil. Fluent in Portuguese and with an C1 Advanced level of English proficiency, I specialize in Indie game development with 3 years of experience using the Unity game engine. Additionally, I have advanced skills in C#, proficiency in modeling and texturing using Blender, and a solid understanding of shader programming.",
+        "contact": {
+            "title": "Contact"
+        },
+        "skills": {
+            "title": "Skills"
+        },
+        "button.resume": {
+            "description": "View Résumé"
+        }
+    },
+    "privacyPolicy": {
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy describes how we, Overnight Games, collect, use, store, and protect the personal information of users who visit our website and use our games. We value the privacy of our users and are committed to ensuring the security and confidentiality of the information provided. By using our website and games, you agree to the terms of this policy.",
+        "collectionOfPersonalInfo": {
+            "title": "Collection of Personal Information",
+            "description": "During your interaction with our website and games, we may collect personal information voluntarily provided by you, such as your name, email address, and contact information. This information is collected when you fill out contact forms, subscribe to our newsletter, create an account, make in-game purchases, or otherwise interact with us through the website or games."
+        },
+        "useOfPersonalInfo": {
+            "title": "Use of Personal Information",
+            "description": "The personal information we collect is used to provide information about our games, updates, promotions, and news related to our services. We may also use this information to personalize your gaming experience, respond to your inquiries, provide customer support, and process transactions."
+        },
+        "sharingOfInfo": {
+            "title": "Sharing of Information",
+            "description": "We do not share, sell, rent, or disclose your personal information to third parties, except in the following cases:",
+            "listItems": [
+                "When we have your explicit consent to share the information.",
+                "When necessary to comply with legal obligations, such as responding to a court order or legal process.",
+                "When necessary to protect our rights, property, or safety, as well as the safety of our users or the general public."
+            ]
+        },
+        "dataSecurity": {
+            "title": "Data Security",
+            "description": "We have implemented appropriate security measures to protect users' personal information against unauthorized access, misuse, alteration, or disclosure. We use encryption technologies and industry-standard security procedures to protect this information."
+        },
+        "cookiesAndTracking": {
+            "title": "Cookies and Tracking Technologies",
+            "description": "Our website and games may use cookies and other tracking technologies to enhance the user experience, analyze website traffic, personalize content, and improve our games based on your preferences. This information is collected anonymously and is not linked to personally identifiable information."
+        },
+        "yourConsentAndUserRights": {
+            "title": "Your Consent and User Rights",
+            "description": "By using our website and games, you consent to the collection and use of personal information as described in this Privacy Policy. You have the right to access, correct, or request the deletion of your personal information at any time. To exercise these rights or if you have questions or concerns about our privacy practices, please contact us at the email address arthurjose.dev@gmail.com."
+        },
+        "changesToPolicy": {
+            "title": "Changes to this Privacy Policy",
+            "description": "We may update this Privacy Policy periodically. We recommend that you regularly review this page to stay informed about any changes. Changes will take effect as soon as they are posted on this page."
+        },
+        "contactUs": {
+            "title": "Contact Us",
+            "description": "If you have any questions, comments, or concerns about this Privacy Policy, please contact us at the email address arthurjose.dev@gmail.com."
+        },
+        "lastUpdated": "Last Updated:",
+        "appreciationMessage": "We appreciate your trust in us and for reading our Privacy Policy.",
+        "date": "January 1, 2024"
+    },
+    "header": {
+        "aboutMe": "About Me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "privacyPolicy": "Privacy Policy"
+    }
+}

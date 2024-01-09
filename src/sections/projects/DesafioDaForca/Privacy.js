@@ -1,10 +1,8 @@
 import React from 'react';
-import Header from '../../../includes/Header';
 
 function PrivacyPolicy() {
     return (
         <div>
-            <Header />
             <div className="container content h-100">
                 <h1>Privacy Policy - Desafio da Forca</h1>
                 <p>Your privacy is of utmost importance to us. Below, we present our Privacy Policy, which clarifies our commitment to protecting the information you may share with us and ensuring transparency in all our actions.</p>

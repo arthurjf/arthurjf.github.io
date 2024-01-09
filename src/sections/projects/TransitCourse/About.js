@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../../../includes/Header';
 import Disclaimer from '../../../includes/Disclaimer';
 import '../../../css/videoplayer.css';
 import '../../../css/disclaimer.css';
@@ -8,7 +7,6 @@ import '../../../css/style-skills.css';
 function TransitCourse() {
     return (
         <div>
-            <Header />
             <div className="content">
                 <div className="container">
                     <div className="col-12 col-md-8 offset-md-2 ">
