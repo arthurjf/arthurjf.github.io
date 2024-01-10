@@ -16,6 +16,9 @@ import NotFound from './sections/NotFound';
 // Transit Course
 import TransitCourse from './sections/projects/TransitCourse/About';
 
+// Encaixando Matemática
+import EncaixandoMatematica from './sections/projects/EncaixandoMatematica/About';
+
 // Desafio da Forca
 import DesafioDaForca from './sections/projects/DesafioDaForca/About';
 import PrivacyDesafioDaForca from './sections/projects/DesafioDaForca/Privacy';
@@ -58,6 +61,7 @@ const Root = (
           <Route path="projects/transitcourse" element={<TransitCourse />} />
           <Route path="projects/desafiodaforca" element={<DesafioDaForca />} />
           <Route path="projects/desafiodaforca/privacy" element={<PrivacyDesafioDaForca />} />
+          <Route path="projects/encaixandomatematica" element={<EncaixandoMatematica />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
