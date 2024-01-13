@@ -6,8 +6,11 @@ function Footer() {
     const { t } = useTranslation("global");
     const { i18n } = useTranslation();
 
+    const LANG_STORAGE_KEY = 'preferredLanguage';
+
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang);
+        localStorage.setItem(LANG_STORAGE_KEY, lang); // Salva a linguagem no localStorage
     };
 
     return (
