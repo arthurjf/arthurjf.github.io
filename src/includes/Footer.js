@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import "../css/footer.css";
 
 function Footer() {
+    const { t } = useTranslation("global");
     const { i18n } = useTranslation();
 
     const changeLanguage = (lang) => {
@@ -14,7 +15,7 @@ function Footer() {
             <div className="footer">
                 <div className="container p-5">
                     <div className="language">
-                        <p>Language</p>
+                        <p>{t("footer.language.title")}</p>
                         <div className="language-buttons">
                             <button
                                 className={i18n.language === 'en' ? 'active' : ''}
