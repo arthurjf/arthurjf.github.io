@@ -63,5 +63,14 @@
         "button.resume": {
             "description": "Ver Currículo"
         }
+    },
+    "disclaimer": {
+        "title": "Aviso"
+    },
+    "skills": {
+        "title": "Habilidades Autoavaliadas",
+        "disclaimer": {
+            "description": "A autoavaliação das habilidades fornecidas neste site é baseada na minha avaliação pessoal e compreensão de cada habilidade. Elas têm a intenção de refletir minha proficiência percebida e podem variar na interpretação."
+        }
     }
 }

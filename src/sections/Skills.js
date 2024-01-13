@@ -1,9 +1,12 @@
 import React from 'react';
 import ProgressBar from '../includes/ProgressBar';
-import '../css/disclaimer.css';
 import '../css/style-skills.css';
+import Disclaimer from '../includes/Disclaimer';
+import { useTranslation } from 'react-i18next';
 
 function Skills() {
+    const { t } = useTranslation("global");
+
     const skillsData = [
         { skill: 'C# (Unity)', value: 90 },
         { skill: 'Unity', value: 90 },
@@ -20,19 +23,9 @@ function Skills() {
         <div>
             <div className="content">
                 <div className="container">
-                    <h1>Self-assessed Skills</h1>
+                    <h1>{t("skills.title")}</h1>
                 </div>
-                <div className="disclaimer">
-                    <div className="container">
-                        <h3 className="title">Disclaimer</h3>
-                        <p className="text">
-                            The self-assessed skill ratings provided on this site are based on
-                            my personal evaluation and understanding of each skill. They are
-                            intended to reflect my perceived proficiency and may vary in
-                            interpretation.
-                        </p>
-                    </div>
-                </div>
+                <Disclaimer description={t("skills.disclaimer.description")} />
             </div>
             <div className="container content">
                 {skillsData.map((skill, index) => (

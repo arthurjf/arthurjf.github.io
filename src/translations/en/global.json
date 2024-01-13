@@ -63,5 +63,14 @@
         "button.resume": {
             "description": "View Résumé"
         }
+    },
+    "disclaimer": {
+        "title": "Disclaimer"
+    },
+    "skills": {
+        "title": "Self-assessed Skills",
+        "disclaimer": {
+            "description": "The self-assessed skill ratings provided on this site are based on my personal evaluation and understanding of each skill. They are intended to reflect my perceived proficiency and may vary in interpretation."
+        }
     }
 }
