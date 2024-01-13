@@ -82,5 +82,9 @@
         "ongoing": {
             "title": "Ongoing Projects 🔨"
         }
+    },
+    "notFound": {
+        "subtitle": "Not Found :(",
+        "description": "Sorry, we couldn't find this page. But don't worry, you can find plenty of other things on our homepage."
     }
 }

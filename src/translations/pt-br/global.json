@@ -82,5 +82,9 @@
         "ongoing": {
             "title": "Projetos em Andamento 🔨"
         }
+    },
+    "notFound": {
+        "subtitle":"Não encontrado :(",
+        "description": "Desculpe, não conseguimos encontrar esta página. Mas não se preocupe, você pode encontrar muitas outras coisas em nossa página inicial."
     }
 }
