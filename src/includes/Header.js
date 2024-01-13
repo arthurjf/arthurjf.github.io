@@ -49,7 +49,7 @@ function Header() {
                         </ul>
                     </div>
                     <a className="btn btn-custom" href="./res/CV.pdf" target="_blank" rel="noopener noreferrer">
-                        <i className="bi bi-file-earmark-arrow-down-fill"></i> View Résumé</a>
+                        <i className="bi bi-file-earmark-arrow-down-fill"></i> {t("header.button.resume.description")}</a>
                 </div>
             </nav>
         </header>

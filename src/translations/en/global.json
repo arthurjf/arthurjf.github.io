@@ -59,6 +59,9 @@
         "aboutMe": "About Me",
         "skills": "Skills",
         "projects": "Projects",
-        "privacyPolicy": "Privacy Policy"
+        "privacyPolicy": "Privacy Policy",
+        "button.resume": {
+            "description": "View Résumé"
+        }
     }
 }
