@@ -8,13 +8,13 @@ function Skills() {
     const { t } = useTranslation("global");
 
     const skillsData = [
-        { skill: 'C# (Unity)', value: 90 },
-        { skill: 'Unity', value: 90 },
+        { skill: 'C# (Unity)', value: 85 },
+        { skill: 'Unity', value: 85 },
         { skill: 'Blender (3D Modeling)', value: 80 },
         { skill: 'Git', value: 90 },
         { skill: 'Python', value: 50 },
         { skill: 'Unreal Engine', value: 5 },
-        { skill: 'C++ (Unreal Engine', value: 5 },
+        { skill: 'C++ (Unreal Engine)', value: 5 },
         { skill: 'Scrum', value: 30 },
         { skill: 'React', value: 10 },
     ];
