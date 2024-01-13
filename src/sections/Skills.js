@@ -6,11 +6,11 @@ import { useTranslation } from 'react-i18next';
 
 function getSkillLevel(value, t) {
     if (value >= 80) {
-        return t("skills.level.beginner");
+        return t("skills.level.advanced");
     } else if (value >= 50) {
         return t("skills.level.intermediate");
     } else {
-        return t("skills.level.advanced");
+        return t("skills.level.beginner");
     }
 }
 
