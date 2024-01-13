@@ -69,6 +69,11 @@
     },
     "skills": {
         "title": "Self-assessed Skills",
+        "level": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced"
+        },
         "disclaimer": {
             "description": "The self-assessed skill ratings provided on this site are based on my personal evaluation and understanding of each skill. They are intended to reflect my perceived proficiency and may vary in interpretation."
         }

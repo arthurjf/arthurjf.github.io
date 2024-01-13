@@ -4,6 +4,16 @@ import '../css/style-skills.css';
 import Disclaimer from '../includes/Disclaimer';
 import { useTranslation } from 'react-i18next';
 
+function getSkillLevel(value, t) {
+    if (value >= 80) {
+        return t("skills.level.beginner");
+    } else if (value >= 50) {
+        return t("skills.level.intermediate");
+    } else {
+        return t("skills.level.advanced");
+    }
+}
+
 function Skills() {
     const { t } = useTranslation("global");
 
@@ -30,7 +40,7 @@ function Skills() {
             <div className="container content">
                 {skillsData.map((skill, index) => (
                     <div key={index} className="skill-level">
-                        <div className="title">{skill.skill}</div>
+                        <div className="title"><strong>{skill.skill}</strong> • {getSkillLevel(skill.value, t)}</div>
                         <ProgressBar fillValue={skill.value} />
                     </div>
                 ))}
