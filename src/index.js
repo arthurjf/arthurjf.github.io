@@ -29,6 +29,7 @@ import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 import Footer from './includes/Footer';
 import Header from './includes/Header';
+import ScrollToTop from './includes/ScrollToTop';
 
 const LANG_STORAGE_KEY = 'preferredLanguage';
 const userLanguage = localStorage.getItem(LANG_STORAGE_KEY) || window.navigator.language || 'en';
@@ -51,6 +52,7 @@ const Root = (
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
       <HashRouter>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route exact path="" element={<App />} />

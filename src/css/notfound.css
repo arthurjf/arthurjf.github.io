@@ -1,3 +1,7 @@
+.not-found{
+    height: 85vh;
+}
+
 .not-found .title {
     font-weight: bold;
     font-size: 120px;
