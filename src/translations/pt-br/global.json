@@ -72,5 +72,15 @@
         "disclaimer": {
             "description": "A autoavaliação das habilidades fornecidas neste site é baseada na minha avaliação pessoal e compreensão de cada habilidade. Elas têm a intenção de refletir minha proficiência percebida e podem variar na interpretação."
         }
+    },
+    "projects": {
+        "title": "Projetos",
+        "subtitle": "Estes são os projetos nos quais trabalhei ou estou atualmente trabalhando.",
+        "published": {
+            "title": "Projetos Publicados"
+        },
+        "ongoing": {
+            "title": "Projetos em Andamento 🔨"
+        }
     }
 }

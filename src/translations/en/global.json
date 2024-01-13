@@ -72,5 +72,15 @@
         "disclaimer": {
             "description": "The self-assessed skill ratings provided on this site are based on my personal evaluation and understanding of each skill. They are intended to reflect my perceived proficiency and may vary in interpretation."
         }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "These are the projects I have worked on or am currently working on.",
+        "published": {
+            "title": "Published Projects"
+        },
+        "ongoing": {
+            "title": "Ongoing Projects 🔨"
+        }
     }
 }

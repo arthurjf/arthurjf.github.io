@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCard from '../includes/ProjectCard';
 import '../css/projects.css';
 import '../css/navbar-projects.css';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
     const projectData = [
@@ -56,19 +57,21 @@ const Projects = () => {
         </div>
     );
 
+    const { t } = useTranslation("global");
+
     return (
         <div>
             <div className="container content">
-                <h1>Projects</h1>
-                <p>These are the projects I have worked on or am currently working on.</p>
+                <h1>{t("projects.title")}</h1>
+                <p>{t("projects.subtitle")}</p>
                 <hr className="mb-5" />
                 <section>
-                    <h2>Published Projects</h2>
+                    <h2>{t("projects.published.title")}</h2>
                     {renderProjects(publishedProjects)}
                 </section>
                 <hr className="mt-5 mb-5" />
                 <section>
-                    <h2>Ongoing Projects 🔨</h2>
+                    <h2>{t("projects.ongoing.title")}</h2>
                     {renderProjects(ongoingProjects)}
                 </section>
             </div>
