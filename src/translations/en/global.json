@@ -1,6 +1,6 @@
 {
     "aboutMe": {
-        "description": "Hello World 👋. My name is Arthur Fernandes, a game developer from Brazil. Fluent in Portuguese and with an C1 Advanced level of English proficiency, I specialize in Indie game development with 3 years of experience using the Unity game engine. Additionally, I have advanced skills in C#, proficiency in modeling and texturing using Blender, and a solid understanding of shader programming.",
+        "description": "<strong>Hello World</strong> 👋. My name is Arthur Fernandes, a game developer from Brazil. Fluent in Portuguese and with an <a class=\"text-link\" href=\"https://www.efset.org/cert/B8Ngby\" target=\"_blank\" rel=\"noopener noreferrer\">C1 Advanced</a> level of English proficiency, I specialize in Indie game development with 3 years of experience using the Unity game engine. Additionally, I have advanced skills in C#, proficiency in modeling and texturing using Blender, and a solid understanding of shader programming.",
         "contact": {
             "title": "Contact"
         },

@@ -19,9 +19,7 @@ function About() {
                 <h1 className="title">Arthur José Fernandes</h1>
                 <h2 className="subtitle">Unity Developer</h2>
                 <div className="container  d-flex justify-content-center align-items-center p-3">
-                    <p className="text-center">
-                        {t("aboutMe.description")}
-                    </p>
+                    <p className="text-center" dangerouslySetInnerHTML={{ __html: t('aboutMe.description') }} />
                 </div>
                 <div className="container mt-4">
                     <div className="row">

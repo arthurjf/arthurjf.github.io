@@ -1,6 +1,6 @@
 {
     "aboutMe": {
-        "description": "Hellow World 👋. Me chamo Arthur Fernandes, um desenvolvedor de jogos do Brasil. Fluente em Português e com um nível Avançado C1 de proficiência em inglês, sou especializado no desenvolvimento de jogos Indie com 3 anos de experiência usando a engine Unity. Além disso, possuo habilidades avançadas em C#, proficiência em modelagem e texturização usando Blender, e um sólido conhecimento em programação de shaders.",
+        "description": "<strong>Hello World</strong> 👋. Me chamo Arthur Fernandes, um desenvolvedor de jogos do Brasil. Fluente em Português e com um nível <a class=\"text-link\" href=\"https://www.efset.org/cert/B8Ngby\" target=\"_blank\" rel=\"noopener noreferrer\">C1 Advanced</a> de proficiência em inglês, sou especializado no desenvolvimento de jogos Indie com 3 anos de experiência usando a engine Unity. Além disso, possuo habilidades avançadas em C#, proficiência em modelagem e texturização usando Blender, e um sólido conhecimento em programação de shaders.",
         "contact": {
             "title": "Contato"
         },
