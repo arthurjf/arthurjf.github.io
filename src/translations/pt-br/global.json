@@ -90,7 +90,7 @@
     },
     "notFound": {
         "subtitle": "Não encontrado :(",
-        "description": "Desculpe, não conseguimos encontrar esta página. Mas não se preocupe, você pode encontrar muitas outras coisas em nossa página inicial."
+        "description": "Desculpe, não conseguimos encontrar esta página. Mas não se preocupe, você pode encontrar muitas outras coisas em nossa <a class=\"text-link\" href=\"#/about/\">página inicial</a>."
     },
     "footer": {
         "language": {
