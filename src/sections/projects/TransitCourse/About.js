@@ -3,13 +3,16 @@ import Disclaimer from '../../../includes/Disclaimer';
 import '../../../css/videoplayer.css';
 import '../../../css/disclaimer.css';
 import '../../../css/style-skills.css';
+import { useTranslation } from 'react-i18next';
 
 function TransitCourse() {
+    const { t } = useTranslation("global");
+
     return (
         <div>
             <div className="content">
                 <div className="container">
-                    <div className="col-12 col-md-8 offset-md-2 ">
+                    <div className="col-12 col-md-8 offset-md-2">
                         <h1 className="d-flex flex-column justify-content-center align-items-center p-5">Transit Course!</h1>
                         <div className="video-container">
                             <div className="video">
@@ -24,6 +27,11 @@ function TransitCourse() {
                             <li>Google Play</li>
                         </ul>
                         <p className="m-4 text-justify"><strong>Transit Course!</strong> is an engaging casual game offering an endlessly generated map. Players embark on a journey to collect coins, a currency used to acquire an array of vehicles, each boasting unique statistics and features. <br />The gameplay involves players maneuvering their vehicles along the road by pressing and holding their finger on the screen. Releasing the touch instantly halts the vehicle's movement, adding a strategic element to the gameplay.</p>
+                    </div>
+                </div>
+                <Disclaimer description={t("project.transitcourse.disclaimer.description")} additionalContainerTags={"col-12 col-md-8 offset-md-2"} />
+                <div className="container">
+                    <div className="col-12 col-md-8 offset-md-2">
                         <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">My contributions</h2>
                         <ul>
                             <li>Created all 3d Models, unwrapping and texturing.</li>
@@ -46,9 +54,8 @@ function TransitCourse() {
                         </div >
                     </div>
                 </div>
-                <Disclaimer description={"This project was removed from Google Play due to account issues."} additionalContainerTags={"col-12 col-md-8 offset-md-2"} />
             </div>
-        </div>
+        </div >
     );
 };
 

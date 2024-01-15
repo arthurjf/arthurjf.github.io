@@ -96,5 +96,12 @@
         "language": {
             "title": "Language"
         }
+    },
+    "project": {
+        "transitcourse": {
+            "disclaimer": {
+                "description": "This project was removed from Google Play due to account issues."
+            }
+        }
     }
 }
