@@ -1,9 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { useTranslation } from 'react-i18next';
-import { Container } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import '../css/navbar.css';
 
 function Header() {
