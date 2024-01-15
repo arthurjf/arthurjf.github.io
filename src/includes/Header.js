@@ -33,7 +33,6 @@ function Header() {
                         <a className="btn btn-custom d-inline-block d-lg-none w-100 mt-3 mb-2" href="./res/CV.pdf" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-file-earmark-arrow-down-fill"></i> {t("header.button.resume.description")}</a>
                     </Navbar.Collapse>
-                    {/* Botão de mostrar o currículo (visível em telas pequenas) */}
                     <a className="btn btn-custom d-none d-lg-inline-block" href="./res/CV.pdf" target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-file-earmark-arrow-down-fill"></i> {t("header.button.resume.description")}</a>
                 </Container>
