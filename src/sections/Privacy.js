@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import TranslateList from '../includes/TranslateList';
 
 function Privacy() {
     const { t } = useTranslation("global");
@@ -18,11 +19,7 @@ function Privacy() {
 
                 <h2><strong>{t("privacyPolicy.sharingOfInfo.title")}</strong></h2>
                 <p>{t("privacyPolicy.sharingOfInfo.description")}</p>
-                <ul>
-                    {t("privacyPolicy.sharingOfInfo.listItems", { returnObjects: true }).map((item, index) => (
-                        <li key={index}>{item}</li>
-                    ))}
-                </ul>
+                <TranslateList tag="privacyPolicy.sharingOfInfo.listItems" />
 
                 <h2><strong>{t("privacyPolicy.dataSecurity.title")}</strong></h2>
                 <p>{t("privacyPolicy.dataSecurity.description")}</p>
