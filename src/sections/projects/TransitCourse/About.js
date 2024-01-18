@@ -29,7 +29,7 @@ function TransitCourse() {
                         <p className="m-4 text-justify"><strong>Transit Course!</strong> is an engaging casual game offering an endlessly generated map. Players embark on a journey to collect coins, a currency used to acquire an array of vehicles, each boasting unique statistics and features. <br />The gameplay involves players maneuvering their vehicles along the road by pressing and holding their finger on the screen. Releasing the touch instantly halts the vehicle's movement, adding a strategic element to the gameplay.</p>
                     </div>
                 </div>
-                <Disclaimer description={t("project.transitcourse.disclaimer.description")} additionalContainerTags={"col-12 col-md-8 offset-md-2"} />
+                <Disclaimer description={t("project.transitCourse.disclaimer.description")} additionalContainerTags={"col-12 col-md-8 offset-md-2"} />
                 <div className="container">
                     <div className="col-12 col-md-8 offset-md-2">
                         <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">My contributions</h2>

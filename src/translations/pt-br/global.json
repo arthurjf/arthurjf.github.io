@@ -98,9 +98,25 @@
         }
     },
     "project": {
-        "transitcourse": {
+        "transitCourse": {
+            "card": {
+                "date": "out 2021 - jan 2022",
+                "description": "Desenvolvi um jogo usando Unity e 3ds Max, adquirindo habilidades em estruturação de projetos, melhores práticas organizacionais e flexibilidade."
+            },
             "disclaimer": {
                 "description": "Este projeto foi removido da Google Play devido a problemas na conta."
+            }
+        },
+        "desafioDaForca": {
+            "card": {
+                "date": "jul 2023 - jul 2023",
+                "description": "Desenvolvi um jogo da forca para aplicativos Android, com categorias de palavras predefinidas e a opção emocionante de criar jogos personalizados."
+            }
+        },
+        "encaixandoMatematica": {
+            "card": {
+                "date": "jul 2023 - dez 2023",
+                "description": "Desenvolvi um jogo educacional como parte da minha Tese, focado no aprendizado de matemática."
             }
         }
     }

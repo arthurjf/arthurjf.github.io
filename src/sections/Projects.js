@@ -5,31 +5,33 @@ import '../css/navbar-projects.css';
 import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+    const { t } = useTranslation("global");
+
     const projectData = [
         {
             imageUrl: './res/img/projects/transitcourse.png',
             title: 'Transit Course!',
-            description: 'I crafted a game using Unity and 3ds Max, acquiring skills in project structuring, best organizational practices, and flexibility.',
+            description: t("project.transitCourse.card.description"),
             skills: ['Unity', '3D', 'C# (Unity)', '3ds Max (3D Modeling)'],
-            date: 'out 2021 - jan 2022',
+            date: t("project.transitCourse.card.date"),
             highlightedIcons: ['googleplay', 'android'],
             linkurl: 'transitcourse',
         },
         {
             imageUrl: './res/img/projects/desafiodaforca.png',
             title: 'Desafio da Forca',
-            description: 'Developed a hangman game for Android apps, featuring preset word categories and the thrilling option to create custom games.',
+            description: t("project.desafioDaForca.card.description"),
             skills: ['Unity', '2D', 'C# (Unity)'],
-            date: 'jul 2023 - jul 2023',
+            date: t("project.desafioDaForca.card.date"),
             highlightedIcons: ['googleplay', 'android'],
             linkurl: 'desafiodaforca',
         },
         {
             imageUrl: './res/img/projects/encaixandomatematica.png',
             title: 'Encaixando Matemática',
-            description: 'Developed an educational game as part of my Thesis focused on math learning.',
+            description: t("project.encaixandoMatematica.card.description"),
             skills: ['Unity', '2D', 'C# (Unity)'],
-            date: 'jul 2023 - dez 2023',
+            date: t("project.encaixandoMatematica.card.date"),
             highlightedIcons: ['googleplay', 'android'],
             linkurl: 'encaixandomatematica',
         },
@@ -56,8 +58,6 @@ const Projects = () => {
             ))}
         </div>
     );
-
-    const { t } = useTranslation("global");
 
     return (
         <div>

@@ -98,9 +98,40 @@
         }
     },
     "project": {
-        "transitcourse": {
+        "transitCourse": {
+            "card": {
+                "date": "out 2021 - jan 2022",
+                "description": "I crafted a game using Unity and 3ds Max, acquiring skills in project structuring, best organizational practices, and flexibility."
+            },
+            "description": "<strong>Transit Course!</strong> is an engaging casual game offering an endlessly generated map. Players embark on a journey to collect coins, a currency used to acquire an array of vehicles, each boasting unique statistics and features. <br />The gameplay involves players maneuvering their vehicles along the road by pressing and holding their finger on the screen. Releasing the touch instantly halts the vehicle's movement, adding a strategic element to the gameplay.",
             "disclaimer": {
                 "description": "This project was removed from Google Play due to account issues."
+            },
+            "myContributions": {
+                "title": "My contributions",
+                "listItems": [
+                    "Designed, developed and published.",
+                    "Created all 3d Models, unwrapping and texturing.",
+                    "Created all UI 2D Graphics.",
+                    "Designed over 10 level segments.",
+                    "Created custom shaders for terrain color and shop background."
+                ]
+            },
+            "screenshots": {
+                "title": "Screenshots",
+                "description": "The following screenshots were taken during development."
+            }
+        },
+        "desafioDaForca": {
+            "card": {
+                "date": "jul 2023 - jul 2023",
+                "description": "Developed a hangman game for Android apps, featuring preset word categories and the thrilling option to create custom games."
+            }
+        },
+        "encaixandoMatematica": {
+            "card": {
+                "date": "jul 2023 - dez 2023",
+                "description": "Developed an educational game as part of my Thesis focused on math learning."
             }
         }
     }
