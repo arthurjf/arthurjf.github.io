@@ -63,8 +63,8 @@ function DesafioDaForca() {
                         </div>
                         <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">My contributions</h2>
                         <ul>
+                            <li>Designed, developed and published</li>
                             <li>Drew all pixel art.</li>
-                            <li>Designed and coded the game.</li>
                             <li>Created all UI 2D Graphics.</li>
                             <li>Added over 250 words/hints through an json file.</li>
                         </ul>
