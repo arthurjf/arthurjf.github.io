@@ -19,13 +19,13 @@ function Skills() {
 
     const skillsData = [
         { skill: 'C# (Unity)', value: 82 },
-        { skill: 'Unity', value: 82 },
+        { skill: 'Unity', value: 80 },
         { skill: 'Blender (3D Modeling)', value: 70 },
         { skill: 'Git', value: 85 },
-        { skill: 'Python', value: 50 },
-        { skill: 'Unreal Engine', value: 5 },
-        { skill: 'C++ (Unreal Engine)', value: 5 },
-        { skill: 'Scrum', value: 25 },
+        { skill: 'Python', value: 40 },
+        { skill: 'Unreal Engine', value: 4 },
+        { skill: 'C++ (Unreal Engine)', value: 4 },
+        { skill: 'Scrum', value: 20 },
         { skill: 'React', value: 15 },
     ];
 
