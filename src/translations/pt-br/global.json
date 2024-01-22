@@ -103,8 +103,23 @@
                 "date": "out 2021 - jan 2022",
                 "description": "Desenvolvi um jogo usando Unity e 3ds Max, adquirindo habilidades em estruturação de projetos, melhores práticas organizacionais e flexibilidade."
             },
+            "description": "<strong>Curso de Trânsito!</strong> é um envolvente jogo casual que oferece um mapa gerado infinitamente. Os jogadores embarcam em uma jornada para coletar moedas, uma moeda usada para adquirir uma variedade de veículos, cada um com estatísticas e características únicas.</p><p>A jogabilidade envolve os jogadores manobrando seus veículos ao longo da estrada pressionando e segurando o dedo na tela. Soltar o toque interrompe instantaneamente o movimento do veículo, adicionando um elemento estratégico à jogabilidade.",
             "disclaimer": {
                 "description": "Este projeto foi removido da Google Play devido a problemas na conta."
+            },
+            "myContributions": {
+                "title": "Minhas contribuições",
+                "listItems": [
+                    "Projetei, desenvolvi e publiquei.",
+                    "Criei todos os modelos 3D, mapeamentos UV e texturas.",
+                    "Criei todos os gráficos 2D da interface do usuário.",
+                    "Projetei mais de 10 segmentos de níveis.",
+                    "Criei shaders personalizados para a cor do terreno e fundo da loja."
+                ]
+            },
+            "screenshots": {
+                "title": "Capturas de Tela",
+                "description": "As seguintes capturas de tela foram tiradas durante o desenvolvimento."
             }
         },
         "desafioDaForca": {

@@ -1,12 +1,25 @@
 import React from 'react';
-import Disclaimer from '../../../includes/Disclaimer';
-import '../../../css/videoplayer.css';
-import '../../../css/disclaimer.css';
-import '../../../css/style-skills.css';
 import { useTranslation } from 'react-i18next';
 
+import Disclaimer from '../../../includes/Disclaimer';
+import TranslateList from '../../../includes/TranslateList';
+
+import '../../../css/disclaimer.css';
+import '../../../css/style-skills.css';
+import '../../../css/videoplayer.css';
+
+const TRANSLATION_KEYS = {
+    global: "global",
+    description: "project.transitCourse.description",
+    disclaimer: "project.transitCourse.disclaimer.description",
+    contributionsTitle: "project.transitCourse.myContributions.title",
+    screenshotsTitle: "project.transitCourse.screenshots.title",
+    screenshotsDescription: "project.transitCourse.screenshots.description",
+    contributionsListItems: "project.transitCourse.myContributions.listItems"
+};
+
 function TransitCourse() {
-    const { t } = useTranslation("global");
+    const { t } = useTranslation(TRANSLATION_KEYS.global);
 
     return (
         <div>
@@ -26,23 +39,17 @@ function TransitCourse() {
                             <li>Android</li>
                             <li>Google Play</li>
                         </ul>
-                        <p className="m-4 text-justify"><strong>Transit Course!</strong> is an engaging casual game offering an endlessly generated map. Players embark on a journey to collect coins, a currency used to acquire an array of vehicles, each boasting unique statistics and features. <br />The gameplay involves players maneuvering their vehicles along the road by pressing and holding their finger on the screen. Releasing the touch instantly halts the vehicle's movement, adding a strategic element to the gameplay.</p>
+                        <p className="m-4 text-justify" dangerouslySetInnerHTML={{ __html: t(TRANSLATION_KEYS.description) }} />
                     </div>
                 </div>
-                <Disclaimer description={t("project.transitCourse.disclaimer.description")} additionalContainerTags={"col-12 col-md-8 offset-md-2"} />
+                <Disclaimer description={t(TRANSLATION_KEYS.disclaimer)} additionalContainerTags={"col-12 col-md-8 offset-md-2"} />
                 <div className="container">
                     <div className="col-12 col-md-8 offset-md-2">
-                        <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">My contributions</h2>
-                        <ul>
-                            <li>Designed, developed and published</li>
-                            <li>Created all 3d Models, unwrapping and texturing.</li>
-                            <li>Created all UI 2D Graphics.</li>
-                            <li>Designed over 10 level segments.</li>
-                            <li>Created custom shaders for terrain color and shop background.</li>
-                        </ul>
+                        <h2 className="d-flex flex-column justify-content-center align-items-center p-5 text-uppercase">{t(TRANSLATION_KEYS.contributionsTitle)}</h2>
+                        <TranslateList tag={TRANSLATION_KEYS.contributionsListItems} />
                         <div className="d-flex flex-column justify-content-center align-items-center p-5">
-                            <h2 className="text-uppercase">Screenshots</h2>
-                            <p className="text-justify">The following screenshots were taken during development.</p>
+                            <h2 className="text-uppercase">{t(TRANSLATION_KEYS.screenshotsTitle)}</h2>
+                            <p className="text-justify">{t(TRANSLATION_KEYS.screenshotsDescription)}</p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <img src="./res/img/projects/transitcourse/screenshot1.jpg" class="img-fluid" alt="Screenshot 1"></img>
