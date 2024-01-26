@@ -8,13 +8,16 @@
     background-color: var(--footer-background);
 }
 
-.footer .language-buttons {
+.footer .text-link {
     display: flex;
     gap: 10px;
 }
 
-.footer .language-buttons button {
-    padding: 8px 12px;
+.footer .text-link button,
+.footer .text-link a {
+    font-weight: normal;
+    text-decoration: none;
+    padding-right: 8px;
     border: none;
     cursor: pointer;
     color: var(--text-color);
@@ -22,11 +25,13 @@
     transition: color 0.1s ease-in-out, font-weight 0.1s ease-in-out;
 }
 
-.footer .language-buttons button:hover {
+.footer .text-link button:hover,
+.footer .text-link a:hover {
     color: var(--primary-color);
 }
 
-.footer .language-buttons button.active {
+.footer .text-link button.active,
+.footer .text-link a.active {
     color: var(--title-text-color);
     font-weight: bold;
 }

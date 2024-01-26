@@ -59,7 +59,6 @@
         "aboutMe": "Sobre Mim",
         "skills": "Habilidades",
         "projects": "Projetos",
-        "privacyPolicy": "Política de Privacidade",
         "button.resume": {
             "description": "Ver Currículo"
         }
@@ -95,6 +94,10 @@
     "footer": {
         "language": {
             "title": "Idioma"
+        },
+        "about":{
+            "title": "Sobre",
+            "privacyPolicy": "Política de Privacidade"
         }
     },
     "project": {

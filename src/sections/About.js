@@ -63,7 +63,7 @@ function About() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/arthur_jf" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://twitter.com/arthurjfern" target="_blank" rel="noopener noreferrer">
                                             <i className="bi bi-twitter"></i>
                                         </a>
                                     </li>

@@ -13,7 +13,7 @@ function Header() {
                 <Container>
                     <NavLink className="navbar-brand" to="/about">Arthur Fernandes</NavLink>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse className="justify-content-center" id="responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                             <li className="nav-item">
                                 <NavLink className="nav-link first-item" activeClassName="active" exact to="/about">{t("header.aboutMe")}</NavLink>
@@ -22,10 +22,7 @@ function Header() {
                                 <NavLink className="nav-link middle-item" activeClassName="active" to="/skills">{t("header.skills")}</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link middle-item" activeClassName="active" to="/projects">{t("header.projects")}</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link last-item" activeClassName="active" to="/privacy">{t("header.privacyPolicy")}</NavLink>
+                                <NavLink className="nav-link last-item" activeClassName="active" to="/projects">{t("header.projects")}</NavLink>
                             </li>
                         </Nav>
                         <a className="btn btn-custom d-inline-block d-lg-none w-100 mt-3 mb-2" href="./res/CV.pdf" target="_blank" rel="noopener noreferrer">

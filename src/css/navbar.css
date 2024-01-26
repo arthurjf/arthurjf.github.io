@@ -82,6 +82,7 @@ header .nav-item .last-item {
 }
 
 header .navbar .navbar-brand {
+    padding-right: 40px;
     color: var(--title-text-color);
 }
 

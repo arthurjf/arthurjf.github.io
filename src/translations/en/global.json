@@ -59,7 +59,6 @@
         "aboutMe": "About Me",
         "skills": "Skills",
         "projects": "Projects",
-        "privacyPolicy": "Privacy Policy",
         "button.resume": {
             "description": "View Résumé"
         }
@@ -95,6 +94,10 @@
     "footer": {
         "language": {
             "title": "Language"
+        },
+        "about":{
+            "title": "About",
+            "privacyPolicy": "Privacy Policy"
         }
     },
     "project": {
