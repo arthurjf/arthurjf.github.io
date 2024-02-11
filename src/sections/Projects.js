@@ -13,7 +13,7 @@ const Projects = () => {
             title: 'Transit Course!',
             description: t("project.transitCourse.card.description"),
             date: t("project.transitCourse.card.date"),
-            highlightedIcons: ['googleplay', 'android'],
+            highlightedIcons: ['unity', 'android', 'googleplay'],
             linkurl: 'transitcourse',
         },
         {
@@ -21,7 +21,7 @@ const Projects = () => {
             title: 'Desafio da Forca',
             description: t("project.desafioDaForca.card.description"),
             date: t("project.desafioDaForca.card.date"),
-            highlightedIcons: ['googleplay', 'android'],
+            highlightedIcons: ['unity', 'android', 'googleplay'],
             linkurl: 'desafiodaforca',
         },
         {
@@ -29,7 +29,7 @@ const Projects = () => {
             title: 'Encaixando Matemática',
             description: t("project.encaixandoMatematica.card.description"),
             date: t("project.encaixandoMatematica.card.date"),
-            highlightedIcons: ['googleplay', 'android'],
+            highlightedIcons: ['unity', 'android', 'googleplay'],
             linkurl: 'encaixandomatematica',
         },
         {

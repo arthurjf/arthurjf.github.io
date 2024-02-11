@@ -7,6 +7,7 @@ const storeIcons = {
     android: 'bi bi-android2',
     steam: 'bi bi-steam',
     windows: 'bi bi-windows',
+    unity: 'bi bi-unity',
 };
 
 const ProjectCard = ({ imageUrl, title, description, date, highlightedIcons, linkurl }) => {
@@ -19,7 +20,7 @@ const ProjectCard = ({ imageUrl, title, description, date, highlightedIcons, lin
                 <p className="card-text description text-justify">{description}</p>
                 <div className="highlighted-icons">
                     {highlightedIcons.map((icon, index) => (
-                        <i key={index} className={`store-icon ${storeIcons[icon]}`} />
+                        <i key={index} className={`store-icon ${storeIcons[icon]}`} title={icon} />
                     ))}
                 </div>
             </div>
