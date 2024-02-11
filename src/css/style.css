@@ -112,3 +112,7 @@ li {
 .text-link:hover {
   color: var(--title-text-color);
 }
+
+.text-primary{
+  color: var(--primary-color)
+}

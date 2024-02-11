@@ -12,18 +12,10 @@ const storeIcons = {
 const ProjectCard = ({ imageUrl, title, description, skills, date, highlightedIcons, linkurl }) => {
     return (
         <Link to={"/projects/" + linkurl} className="card mt-4 project">
-            <img src={imageUrl} className="card-img-top" alt="Project" />
+            <img src={imageUrl} className="card-img-top p-3" alt="Project" />
             <div className="card-body">
-                <h5 className="card-title">{title}</h5>
+                <h5 className="card-title text-primary">{title}</h5>
                 <p className="card-text date">{date}</p>
-                <ul className="skills">
-                    {skills.map((skill, index) => (
-                        <li key={index}>
-                            {skill}
-                        </li>
-                    ))}
-                </ul>
-                <p className="card-text description">{description}</p>
                 <div className="highlighted-icons">
                     {highlightedIcons.map((icon, index) => (
                         <i key={index} className={`store-icon ${storeIcons[icon]}`} />

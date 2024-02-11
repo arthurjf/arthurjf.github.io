@@ -1,5 +1,5 @@
 :root {
-    --project-background-color: #eaeafa;
+    --project-background-color: #14141d;
     --project-date-color: #a8a8a8;
 }
 
@@ -8,12 +8,15 @@
     height: 100%;
     text-decoration: none;
     overflow: hidden;
-    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+.project .card-img-top{
+    border-radius: 22px;
 }
 
 .project:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 90px rgba(255, 255, 255, 0.3);
 }
 
 .project .card-title {
@@ -36,12 +39,15 @@
 }
 
 .project .store-icon {
-    color: var(--background-color);
-    font-size: 30px;
+    color: var(--text-color);
+    font-size: 25px;
     margin-right: 20px;
     transition: color 0.2s ease-in-out;
 }
 
-.project .store-icon:hover {
+.project .line{
+    margin: 0;
+    border-width: 3px;
+    opacity: 100%;
     color: var(--primary-color);
 }
