@@ -4,11 +4,26 @@ import PlaceholderImage from './PlaceholderImage'; // Importe o componente de pl
 import '../css/style-skills.css';
 
 const storeIcons = {
-    googleplay: 'bi bi-google-play',
-    android: 'bi bi-android2',
-    steam: 'bi bi-steam',
-    windows: 'bi bi-windows',
-    unity: 'bi bi-unity',
+    googleplay: {
+        name: 'Google Play',
+        tag: 'bi bi-google-play',
+    },
+    android: {
+        name: 'Android',
+        tag: 'bi bi-android2',
+    },
+    steam: {
+        name: 'Steam',
+        tag: 'bi bi-steam',
+    },
+    windows: {
+        name: 'Windows',
+        tag: 'bi bi-windows',
+    },
+    unity: {
+        name: 'Unity',
+        tag: 'bi bi-unity',
+    },
 };
 
 const ProjectCard = ({ imageUrl, title, description, date, highlightedIcons, linkurl }) => {
@@ -35,12 +50,12 @@ const ProjectCard = ({ imageUrl, title, description, date, highlightedIcons, lin
                 <p className="card-text description text-justify">{description}</p>
                 <div className="highlighted-icons">
                     {highlightedIcons.map((icon, index) => (
-                        <i key={index} className={`store-icon ${storeIcons[icon]}`} title={icon} />
+                        <i key={index} className={`store-icon ${storeIcons[icon].tag}`} title={storeIcons[icon].name} />
                     ))}
                 </div>
             </div>
         </Link>
-    );
+    );    
 };
 
 export default ProjectCard;
