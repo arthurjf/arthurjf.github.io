@@ -12,7 +12,6 @@ const Projects = () => {
             imageUrl: './res/img/projects/transitcourse.png',
             title: 'Transit Course!',
             description: t("project.transitCourse.card.description"),
-            skills: ['Unity', '3D', 'C# (Unity)', '3ds Max (3D Modeling)'],
             date: t("project.transitCourse.card.date"),
             highlightedIcons: ['googleplay', 'android'],
             linkurl: 'transitcourse',
@@ -21,7 +20,6 @@ const Projects = () => {
             imageUrl: './res/img/projects/desafiodaforca.png',
             title: 'Desafio da Forca',
             description: t("project.desafioDaForca.card.description"),
-            skills: ['Unity', '2D', 'C# (Unity)'],
             date: t("project.desafioDaForca.card.date"),
             highlightedIcons: ['googleplay', 'android'],
             linkurl: 'desafiodaforca',
@@ -30,7 +28,6 @@ const Projects = () => {
             imageUrl: './res/img/projects/encaixandomatematica.png',
             title: 'Encaixando Matemática',
             description: t("project.encaixandoMatematica.card.description"),
-            skills: ['Unity', '2D', 'C# (Unity)'],
             date: t("project.encaixandoMatematica.card.date"),
             highlightedIcons: ['googleplay', 'android'],
             linkurl: 'encaixandomatematica',
@@ -39,7 +36,6 @@ const Projects = () => {
             imageUrl: './res/img/projects/dreamrooms.png',
             title: 'Dreamrooms',
             description: "No description available yet.",
-            skills: ['Unity', '3D', 'C# (Unity)', 'Blender'],
             date: 'jan 2024 - the moment',
             highlightedIcons: ['steam', 'windows'],
             linkurl: 'dreamrooms',
@@ -72,7 +68,8 @@ const Projects = () => {
                 <hr className="mt-5 mb-5" />
                 <section>
                     <h2>{t("projects.ongoing.title")}</h2>
-                    {renderProjects(ongoingProjects)}
+                    {/* renderProjects(ongoingProjects) */}
+                    <p className="mt-4">No ongoing projects available :(</p>
                 </section>
             </div>
         </div>

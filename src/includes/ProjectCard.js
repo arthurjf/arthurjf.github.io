@@ -9,13 +9,14 @@ const storeIcons = {
     windows: 'bi bi-windows',
 };
 
-const ProjectCard = ({ imageUrl, title, description, skills, date, highlightedIcons, linkurl }) => {
+const ProjectCard = ({ imageUrl, title, description, date, highlightedIcons, linkurl }) => {
     return (
         <Link to={"/projects/" + linkurl} className="card mt-4 project">
             <img src={imageUrl} className="card-img-top p-3" alt="Project" />
             <div className="card-body">
                 <h5 className="card-title text-primary">{title}</h5>
                 <p className="card-text date">{date}</p>
+                <p className="card-text description text-justify">{description}</p>
                 <div className="highlighted-icons">
                     {highlightedIcons.map((icon, index) => (
                         <i key={index} className={`store-icon ${storeIcons[icon]}`} />
