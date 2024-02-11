@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import PlaceholderImage from './PlaceholderImage'; // Importe o componente de placeholder
+import PlaceholderImage from './PlaceholderImage';
 import '../css/style-skills.css';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 const storeIcons = {
     googleplay: {
@@ -27,6 +29,12 @@ const storeIcons = {
 };
 
 const ProjectCard = ({ imageUrl, title, description, date, highlightedIcons, linkurl }) => {
+    const renderTooltip = (props) => (
+        <Tooltip id="button-tooltip" {...props}>
+            {storeIcons[props.icon].name}
+        </Tooltip>
+    );
+
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
@@ -50,12 +58,19 @@ const ProjectCard = ({ imageUrl, title, description, date, highlightedIcons, lin
                 <p className="card-text description text-justify">{description}</p>
                 <div className="highlighted-icons">
                     {highlightedIcons.map((icon, index) => (
-                        <i key={index} className={`store-icon ${storeIcons[icon].tag}`} title={storeIcons[icon].name} />
+                        <OverlayTrigger
+                            key={index}
+                            placement="top"
+                            delay={{ show: 100, hide: 50 }}
+                            overlay={renderTooltip({ icon })}
+                        >
+                            <i key={index} className={`store-icon ${storeIcons[icon].tag}`} />
+                        </OverlayTrigger>
                     ))}
                 </div>
             </div>
         </Link>
-    );    
+    );
 };
 
 export default ProjectCard;
