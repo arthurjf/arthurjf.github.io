@@ -19,10 +19,10 @@ function Header() {
                                 <NavLink className="nav-link first-item" activeClassName="active" exact to="/about">{t("header.aboutMe")}</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link middle-item" activeClassName="active" to="/skills">{t("header.skills")}</NavLink>
+                                <NavLink className="nav-link middle-item" activeClassName="active" to="/projects">{t("header.projects")}</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link last-item" activeClassName="active" to="/projects">{t("header.projects")}</NavLink>
+                                <NavLink className="nav-link last-item" activeClassName="active" to="/skills">{t("header.skills")}</NavLink>
                             </li>
                         </Nav>
                         <a className="btn btn-custom d-inline-block d-lg-none w-100 mt-3 mb-2" href="./res/CV.pdf" target="_blank" rel="noopener noreferrer">
