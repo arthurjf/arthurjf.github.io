@@ -33,11 +33,11 @@ function TransitCourse() {
                             </div>
                         </div>
                         <ul className="skills m-4">
-                            <li>Unity</li>
+                            <li><bi className="bi bi-unity"></bi> Unity</li>
                             <li>C# (Unity)</li>
                             <li>3ds Max (3D Modeling)</li>
-                            <li>Android</li>
-                            <li>Google Play</li>
+                            <li><bi className="bi bi-android"></bi> Android</li>
+                            <li><bi className="bi bi-google-play"></bi> Google Play</li>
                         </ul>
                         <p className="m-4 text-justify" dangerouslySetInnerHTML={{ __html: t(TRANSLATION_KEYS.description) }} />
                     </div>

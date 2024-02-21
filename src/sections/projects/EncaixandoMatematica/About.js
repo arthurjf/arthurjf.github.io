@@ -44,11 +44,11 @@ function DesafioDaForca() {
                             </Carousel.Item>
                         </Carousel>
                         <ul className="skills m-4">
-                            <li>Unity</li>
+                            <li><bi className="bi bi-unity"></bi> Unity</li>
                             <li>C# (Unity)</li>
                             <li>Substance Designer</li>
-                            <li>Android</li>
-                            <li>Google Play</li>
+                            <li><bi className="bi bi-android"></bi> Android</li>
+                            <li><bi className="bi bi-google-play"></bi> Google Play</li>
                             <li>Instituto Federal de Goiás</li>
                         </ul>
                         <p className="m-4 text-justify"><strong>"Encaixando Matemática"</strong> is an interactive game designed to elevate mathematical skills through engaging puzzles. Players solve challenges by maneuvering and fitting various mathematical pieces together. Each level offers unique puzzles that progressively enhance numerical abilities while ensuring an enjoyable learning experience. Dive into a world where learning math is an exciting quest filled with intriguing challenges and skill-building opportunities!</p>

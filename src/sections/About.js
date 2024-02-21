@@ -17,7 +17,7 @@ function About() {
                     />
                 </div>
                 <h1 className="title">Arthur José Fernandes</h1>
-                <h2 className="subtitle">Unity Developer</h2>
+                <h2 className="subtitle">Unity Game Developer</h2>
                 <div className="container  d-flex justify-content-center align-items-center p-3">
                     <p className="text-center" dangerouslySetInnerHTML={{ __html: t('aboutMe.description') }} />
                 </div>
@@ -27,12 +27,12 @@ function About() {
                             <div className="p-3 mb-3">
                                 <h3 className="items-title">{t("aboutMe.skills.title")}</h3>
                                 <ul className="skills">
-                                    <li>Unity</li>
+                                    <li><bi className="bi bi-unity"></bi> Unity</li>
                                     <li>C# (Unity)</li>
                                     <li>Blender (3D Modeling)</li>
-                                    <li>Git</li>
+                                    <li><bi className="bi bi-git"></bi> Git</li>
                                     <li>Python</li>
-                                    <li>Unreal Engine</li>
+                                    <li> Unreal Engine</li>
                                     <li>C++ (Unreal Engine)</li>
                                     <li>Scrum</li>
                                 </ul>
@@ -44,27 +44,27 @@ function About() {
                                 <ul className="contact">
                                     <li>
                                         <a href="mailto:arthurjose.dev@gmail.com" data-bs-toggle="tooltip" data-bs-placement="top" title="arthurjose.dev@gmail.com">
-                                            <i className="bi bi-envelope"></i>
+                                            <bi className="bi bi-envelope"></bi>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://www.linkedin.com/in/arthur-jos%C3%A9-fernandes-048a26226/" target="_blank" rel="noopener noreferrer">
-                                            <i className="bi bi-linkedin"></i>
+                                            <bi className="bi bi-linkedin"></bi>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://github.com/arthurjf/" target="_blank" rel="noopener noreferrer">
-                                            <i className="bi bi-github"></i>
+                                            <bi className="bi bi-github"></bi>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/arthur_jfernandes/" target="_blank" rel="noopener noreferrer">
-                                            <i className="bi bi-instagram"></i>
+                                            <bi className="bi bi-instagram"></bi>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://twitter.com/arthurjfern" target="_blank" rel="noopener noreferrer">
-                                            <i className="bi bi-twitter"></i>
+                                            <bi className="bi bi-twitter"></bi>
                                         </a>
                                     </li>
                                 </ul>

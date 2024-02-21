@@ -39,7 +39,7 @@
     margin: 3px;
 }
 
-.contact i {
+.contact .bi {
     font-size: 20px;
 }
 
@@ -48,18 +48,18 @@
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
-.contact li a i {
+.contact li a .bi {
     font-size: 60px;
     padding: 15px;
 }
 
 @media (min-width: 768px) {
-    .contact li a i {
+    .contact li a .bi {
         font-size: 20px;
         transition: font-size 0.2s ease-in-out;
     }
 
-    .contact li a i:hover {
+    .contact li a .bi:hover {
         font-size: 30px;
         transition: font-size 0.2s ease-in-out;
     }

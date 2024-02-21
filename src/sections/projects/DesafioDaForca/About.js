@@ -50,12 +50,12 @@ function DesafioDaForca() {
                             </Carousel.Item>
                         </Carousel>
                         <ul className="skills m-4">
-                            <li>Unity</li>
+                            <li><bi className="bi bi-unity"></bi> Unity</li>
                             <li>C# (Unity)</li>
                             <li>AdMob</li>
                             <li>3ds Max (3D Modeling)</li>
-                            <li>Android</li>
-                            <li>Google Play</li>
+                            <li><bi className="bi bi-android"></bi> Android</li>
+                            <li><bi className="bi bi-google-play"></bi> Google Play</li>
                         </ul>
                         <p className="m-4 text-justify">The <strong>'Desafio da Forca'</strong> is a word guessing game where you must uncover the hidden word before the character is hanged. Choose themes or create custom games with personalized words and hints. Challenge your friends and have fun guessing words!</p>
                         <div className="d-flex flex-column justify-content-center align-items-center p-2">

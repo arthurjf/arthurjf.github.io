@@ -33,17 +33,25 @@ const Projects = () => {
             linkurl: 'encaixandomatematica',
         },
         {
-            imageUrl: './res/img/projects/dreamrooms.png',
-            title: 'Dreamrooms',
+            imageUrl: './res/img/placeholder.png',
+            title: 'Don\'t Pop It',
             description: "No description available yet.",
             date: 'jan 2024 - the moment',
-            highlightedIcons: ['steam', 'windows'],
-            linkurl: 'dreamrooms',
+            highlightedIcons: ['unity', 'android', 'googleplay'],
+            linkurl: 'dontpopit',
+        },
+        {
+            imageUrl: './res/img/placeholder.png',
+            title: 'Hop Bricks',
+            description: "No description available yet.",
+            date: 'not initialized',
+            highlightedIcons: ['unity', 'android', 'googleplay'],
+            linkurl: 'hopbricks',
         },
     ];
 
     const publishedProjects = [projectData[0], projectData[1], projectData[2]];
-    const ongoingProjects = [projectData[3]];
+    const ongoingProjects = [projectData[3], projectData[4]];
 
     const renderProjects = (projects) => (
         <div className="row">
@@ -68,8 +76,7 @@ const Projects = () => {
                 <hr className="mt-5 mb-5" />
                 <section>
                     <h2>{t("projects.ongoing.title")}</h2>
-                    {/* renderProjects(ongoingProjects) */}
-                    <p className="mt-4">No ongoing projects available :(</p>
+                    {renderProjects(ongoingProjects)}
                 </section>
             </div>
         </div>
