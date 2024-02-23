@@ -85,6 +85,9 @@
         },
         "ongoing": {
             "title": "Ongoing Projects"
+        },
+        "search":{
+            "placeholder": "Find by name"
         }
     },
     "notFound": {

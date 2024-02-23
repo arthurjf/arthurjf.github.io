@@ -88,7 +88,7 @@ const Projects = () => {
                             value={searchTerm}
                             onChange={handleSearchChange}
                             aria-describedby="basic-addon3 basic-addon4"
-                            placeholder="Procurar pelo nome"></input>
+                            placeholder={t("projects.search.placeholder")}></input>
                     </div>
                 </div>
                 <hr className="mb-5" />
