@@ -34,7 +34,7 @@ const Projects = () => {
             return (
                 <div>
                     <p className="fst-italic">
-                        <i className="bi bi-search"></i>{t("projects.search.noResults")}
+                        <i className="bi bi-search"></i> {t("projects.search.noResults")}
                     </p>
                 </div>
             );
