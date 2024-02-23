@@ -36,14 +36,14 @@ function Skills() {
                     <h1>{t("skills.title")}</h1>
                 </div>
                 <Disclaimer description={t("skills.disclaimer.description")} />
-            </div>
-            <div className="container content">
-                {skillsData.map((skill, index) => (
-                    <div key={index} className="skill-level">
-                        <div className="title"><strong>{skill.skill}</strong> • {getSkillLevel(skill.value, t)}</div>
-                        <ProgressBar fillValue={skill.value} />
-                    </div>
-                ))}
+                <div className="container">
+                    {skillsData.map((skill, index) => (
+                        <div key={index} className="skill-level">
+                            <div className="title"><strong>{skill.skill}</strong> • {getSkillLevel(skill.value, t)}</div>
+                            <ProgressBar fillValue={skill.value} />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

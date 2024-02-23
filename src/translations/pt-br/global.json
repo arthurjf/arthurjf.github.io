@@ -87,7 +87,8 @@
             "title": "Projetos em Andamento"
         },
         "search":{
-            "placeholder": "Procurar pelo nome"
+            "placeholder": "Procurar pelo nome",
+            "noResults": "Nenhum resultado encontrado."
         }
     },
     "notFound": {

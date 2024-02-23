@@ -10,7 +10,7 @@
     transition: transform 0.1s ease-in-out;
 }
 
-.project .card-img-top{
+.project .card-img-top {
     border-radius: 22px;
 }
 
@@ -35,6 +35,7 @@
     transition: height 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
+.project:focus .description,
 .project:hover .description {
     opacity: 1;
     height: 100px;
@@ -52,7 +53,7 @@
     transition: color 0.2s ease-in-out;
 }
 
-.project .line{
+.project .line {
     margin: 0;
     border-width: 3px;
     opacity: 100%;
