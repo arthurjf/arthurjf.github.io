@@ -1,0 +1,69 @@
+{
+    "projects": [
+        {
+            "imageUrl": "./res/img/projects/transitcourse.png",
+            "title": "Transit Course!",
+            "description": "project.transitCourse.card.description",
+            "startDate": "2021-10-01",
+            "finishDate": "2022-01-31",
+            "highlightedIcons": [
+                "unity",
+                "android",
+                "googleplay"
+            ],
+            "linkurl": "transitcourse"
+        },
+        {
+            "imageUrl": "./res/img/projects/desafiodaforca.png",
+            "title": "Desafio da Forca",
+            "description": "project.desafioDaForca.card.description",
+            "startDate": "2023-07-01",
+            "finishDate": "2023-07-31",
+            "highlightedIcons": [
+                "unity",
+                "android",
+                "googleplay"
+            ],
+            "linkurl": "desafiodaforca"
+        },
+        {
+            "imageUrl": "./res/img/projects/encaixandomatematica.png",
+            "title": "Encaixando Matemática",
+            "description": "project.encaixandoMatematica.card.description",
+            "startDate": "2023-07-01",
+            "finishDate": "2023-12-31",
+            "highlightedIcons": [
+                "unity",
+                "android",
+                "googleplay"
+            ],
+            "linkurl": "encaixandomatematica"
+        },
+        {
+            "imageUrl": "./res/img/placeholder.png",
+            "title": "Don't Pop It",
+            "description": "project.dontPopIt.card.description",
+            "startDate": "2024-01-01",
+            "finishDate": "2024-02-23",
+            "highlightedIcons": [
+                "unity",
+                "android",
+                "googleplay"
+            ],
+            "linkurl": "dontpopit"
+        },
+        {
+            "imageUrl": "./res/img/placeholder.png",
+            "title": "Hop Bricks",
+            "description": "project.hopBricks.card.description",
+            "startDate": "2024-01-01",
+            "finishDate": "2024-02-23",
+            "highlightedIcons": [
+                "unity",
+                "android",
+                "googleplay"
+            ],
+            "linkurl": "hopbricks"
+        }
+    ]
+}

@@ -3,52 +3,12 @@ import ProjectCard from '../includes/ProjectCard';
 import '../css/projects.css';
 import '../css/search.css';
 import { useTranslation } from 'react-i18next';
+import projectsData from '../datas/projectsData.json';
 
 const Projects = () => {
     const { t } = useTranslation("global");
 
-    const projectData = [
-        {
-            imageUrl: './res/img/projects/transitcourse.png',
-            title: 'Transit Course!',
-            description: t("project.transitCourse.card.description"),
-            date: t("project.transitCourse.card.date"),
-            highlightedIcons: ['unity', 'android', 'googleplay'],
-            linkurl: 'transitcourse',
-        },
-        {
-            imageUrl: './res/img/projects/desafiodaforca.png',
-            title: 'Desafio da Forca',
-            description: t("project.desafioDaForca.card.description"),
-            date: t("project.desafioDaForca.card.date"),
-            highlightedIcons: ['unity', 'android', 'googleplay'],
-            linkurl: 'desafiodaforca',
-        },
-        {
-            imageUrl: './res/img/projects/encaixandomatematica.png',
-            title: 'Encaixando Matemática',
-            description: t("project.encaixandoMatematica.card.description"),
-            date: t("project.encaixandoMatematica.card.date"),
-            highlightedIcons: ['unity', 'android', 'googleplay'],
-            linkurl: 'encaixandomatematica',
-        },
-        {
-            imageUrl: './res/img/placeholder.png',
-            title: 'Don\'t Pop It',
-            description: "No description available yet.",
-            date: 'jan 2024 - the moment',
-            highlightedIcons: ['unity', 'android', 'googleplay'],
-            linkurl: 'dontpopit',
-        },
-        {
-            imageUrl: './res/img/placeholder.png',
-            title: 'Hop Bricks',
-            description: "No description available yet.",
-            date: 'not initialized',
-            highlightedIcons: ['unity', 'android', 'googleplay'],
-            linkurl: 'hopbricks',
-        },
-    ];
+    const projectData = projectsData.projects
 
     const [searchTerm, setSearchTerm] = useState('');
 
