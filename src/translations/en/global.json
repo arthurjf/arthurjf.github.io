@@ -105,6 +105,9 @@
         }
     },
     "project": {
+        "date": {
+            "ongoing": "at moment"
+        },
         "transitCourse": {
             "card": {
                 "date": "out 2021 - jan 2022",

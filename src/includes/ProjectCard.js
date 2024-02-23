@@ -1,4 +1,3 @@
-// ProjectCard.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PlaceholderImage from './PlaceholderImage';
@@ -30,7 +29,7 @@ const storeIcons = {
     },
 };
 
-const ProjectCard = ({ imageUrl, title, description, startDate, finishDate, highlightedIcons, linkurl }) => {
+const ProjectCard = ({ imageUrl, title, description, startDate, finishDate, inDevelopment, highlightedIcons, linkurl }) => {
     const renderTooltip = (props) => (
         <Tooltip id="button-tooltip" {...props}>
             {storeIcons[props.icon].name}
@@ -52,7 +51,9 @@ const ProjectCard = ({ imageUrl, title, description, startDate, finishDate, high
     const formatDate = (startDate, finishDate) => {
         const options = { month: 'short', year: 'numeric' };
         const formattedStartDate = new Date(startDate).toLocaleDateString(i18n.language, options);
-        const formattedFinishDate = new Date(finishDate).toLocaleDateString(i18n.language, options);
+        const formattedFinishDate = inDevelopment
+            ? t("project.date.ongoing")
+            : new Date(finishDate).toLocaleDateString(i18n.language, options);
 
         const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
         const formattedStartDateManual = capitalize(formattedStartDate.replace('.', ''));

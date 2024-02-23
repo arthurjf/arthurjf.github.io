@@ -86,7 +86,7 @@
         "ongoing": {
             "title": "Projetos em Andamento"
         },
-        "search":{
+        "search": {
             "placeholder": "Procurar pelo nome",
             "noResults": "Nenhum resultado encontrado."
         }
@@ -99,12 +99,15 @@
         "language": {
             "title": "Idioma"
         },
-        "about":{
+        "about": {
             "title": "Sobre",
             "privacyPolicy": "Política de Privacidade"
         }
     },
     "project": {
+        "date": {
+            "ongoing": "até o momento"
+        },
         "transitCourse": {
             "card": {
                 "date": "out 2021 - jan 2022",
