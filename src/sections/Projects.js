@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import ProjectCard from '../includes/ProjectCard';
-import '../css/projects.css';
-import '../css/search.css';
 import { useTranslation } from 'react-i18next';
 import projectsData from '../datas/projectsData.json';
 
+import '../css/projects.css';
+import '../css/search.css';
+
 const Projects = () => {
     const { t } = useTranslation("global");
-
-    const projectData = projectsData.projects
+    const projectData = projectsData.projects;
 
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -20,8 +20,12 @@ const Projects = () => {
         return projects.filter(project => project.title.toLowerCase().includes(searchTerm.toLowerCase()));
     };
 
-    const publishedProjects = [projectData[0], projectData[1], projectData[2]];
-    const ongoingProjects = [projectData[3], projectData[4]];
+    const sortProjectsByStartDateDescending = (projects) => {
+        return projects.sort((a, b) => new Date(b.startDate) - new Date(a.startDate));
+    };
+
+    const publishedProjects = sortProjectsByStartDateDescending([projectData[0], projectData[1], projectData[2]]);
+    const ongoingProjects = sortProjectsByStartDateDescending([projectData[3], projectData[4]]);
 
     const renderProjects = (projects) => {
         const filteredProjects = filterProjectsByName(projects);
@@ -29,7 +33,9 @@ const Projects = () => {
         if (filteredProjects.length === 0) {
             return (
                 <div>
-                    <p className="fst-italic"><i className="bi bi-search"> </i>{t("projects.search.noResults")}</p>
+                    <p className="fst-italic">
+                        <i className="bi bi-search"></i>{t("projects.search.noResults")}
+                    </p>
                 </div>
             );
         }
@@ -45,23 +51,25 @@ const Projects = () => {
         );
     };
 
-
     return (
         <div className="container content">
             <h1>{t("projects.title")}</h1>
             <p>{t("projects.subtitle")}</p>
-            <div class="mb-3 search">
-                <div class="input-group">
-                    <span class="input-group-text" id="basic-addon3"><bi className="bi bi-search"></bi></span>
+            <div className="mb-3 search">
+                <div className="input-group">
+                    <span className="input-group-text" id="basic-addon3">
+                        <i className="bi bi-search"></i>
+                    </span>
                     <input
                         type="search"
-                        class="form-control"
+                        className="form-control"
                         id="basic-url"
                         value={searchTerm}
                         autoComplete="on"
                         onChange={handleSearchChange}
                         aria-describedby="basic-addon3 basic-addon4"
-                        placeholder={t("projects.search.placeholder")}></input>
+                        placeholder={t("projects.search.placeholder")}
+                    ></input>
                 </div>
             </div>
             <hr className="mb-5" />
