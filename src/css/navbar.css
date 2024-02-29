@@ -28,6 +28,30 @@ header .navbar .btn-nav {
     transition: color 0.3s ease, border 0.3s ease, background-color 0.3s ease;
 }
 
+header .navbar .navbar-toggler:focus,
+header .navbar .navbar-toggler {
+    color: var(--background-inner-color);
+    background-color: var(--title-text-color);
+    border: none;
+    box-shadow: none;
+}
+
+header .navbar .navbar-toggler:focus .toggler-icon,
+header .navbar .navbar-toggler .toggler-icon {
+    color: inherit;
+}
+
+header .navbar .navbar-toggler.collapsed {
+    border: none;
+    box-shadow: none;
+    color: var(--title-text-color);
+    background-color: transparent;
+}
+
+header .navbar .toggler-icon {
+    color: var(--title-text-color);
+}
+
 header .navbar .btn-nav:hover {
     color: var(--background-color);
     border: var(--navbar-border-size) solid var(--text-color);

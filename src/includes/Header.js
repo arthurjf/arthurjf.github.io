@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Container, Nav, Navbar } from 'react-bootstrap';
@@ -6,14 +6,22 @@ import '../css/navbar.css';
 
 function Header() {
     const { t } = useTranslation("global");
+    const [isNavbarOpen, setNavbarOpen] = useState(false);
+
+    const toggleNavbar = () => {
+        setNavbarOpen(!isNavbarOpen);
+    };
 
     return (
         <header>
             <Navbar className="fixed-top" collapseOnSelect expand="lg" variant="dark">
                 <Container>
                     <NavLink className="navbar-brand" to="/about">Arthur Fernandes</NavLink>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Toggle onClick={toggleNavbar} aria-controls="responsive-navbar-nav">
+                        {isNavbarOpen ? <i className="bi bi-x-lg h2 toggler-icon"></i> : <i class="bi bi-list h2 toggler-icon"></i>}
+                    </Navbar.Toggle>
+
+                    <Navbar.Collapse id="responsive-navbar-nav" className={isNavbarOpen ? 'show' : ''}>
                         <Nav className="mr-auto">
                             <li className="nav-item">
                                 <NavLink className="nav-link first-item" activeClassName="active" exact to="/about">{t("header.aboutMe")}</NavLink>
