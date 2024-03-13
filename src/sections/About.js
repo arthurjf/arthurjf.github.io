@@ -48,7 +48,7 @@ function About() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/arthur-jos%C3%A9-fernandes-048a26226/" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://www.linkedin.com/in/arthurjf/" target="_blank" rel="noopener noreferrer">
                                             <bi className="bi bi-linkedin"></bi>
                                         </a>
                                     </li>
