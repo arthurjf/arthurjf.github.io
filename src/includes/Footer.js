@@ -21,9 +21,8 @@ function Footer() {
           <div className="row">
             <hr className="d-sm-none"></hr>
             <div className="col-md-3 mb-5">
-              {/* Adicionei a classe 'mb-3' aqui para a margem inferior */}
               <div className="language">
-              <h5>{t('footer.language.title')}</h5>
+                <h5>{t('footer.language.title')}</h5>
                 <div className="text-link">
                   <button
                     className={i18n.language === 'en' ? 'active' : ''}
@@ -43,7 +42,7 @@ function Footer() {
             <div className="col-md-3"></div>
             <div className="col-md-3"></div>
             <div className="col-md-3">
-            <hr className="d-sm-none"></hr>
+              <hr className="d-sm-none"></hr>
               <h5>{t('footer.about.title')}</h5>
               <div className="text-link">
                 <NavLink to="/privacy">{t('footer.about.privacyPolicy')}</NavLink>
