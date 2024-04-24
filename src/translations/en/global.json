@@ -86,7 +86,7 @@
         "ongoing": {
             "title": "Ongoing Projects"
         },
-        "search":{
+        "search": {
             "placeholder": "Find by name",
             "noResults": "No results found."
         }
@@ -99,7 +99,7 @@
         "language": {
             "title": "Language"
         },
-        "about":{
+        "about": {
             "title": "About",
             "privacyPolicy": "Privacy Policy"
         }
@@ -110,7 +110,6 @@
         },
         "transitCourse": {
             "card": {
-                "date": "out 2021 - jan 2022",
                 "description": "I crafted a game using Unity and 3ds Max, acquiring skills in project structuring, best organizational practices, and flexibility."
             },
             "description": "<strong>Transit Course!</strong> is an engaging casual game offering an endlessly generated map. Players embark on a journey to collect coins, a currency used to acquire an array of vehicles, each boasting unique statistics and features.<p/><p>The gameplay involves players maneuvering their vehicles along the road by pressing and holding their finger on the screen. Releasing the touch instantly halts the vehicle's movement, adding a strategic element to the gameplay.",
@@ -134,14 +133,27 @@
         },
         "desafioDaForca": {
             "card": {
-                "date": "jul 2023 - jul 2023",
                 "description": "Developed a hangman game for Android apps, featuring preset word categories and the thrilling option to create custom games."
             }
         },
         "encaixandoMatematica": {
             "card": {
-                "date": "jul 2023 - dez 2023",
                 "description": "Developed an educational game as part of my Thesis focused on math learning."
+            }
+        },
+        "dontPopIt": {
+            "card": {
+                "description": "I crafted a game using Unity, acquiring skills in project structuring, best organizational practices, and flexibility."
+            },
+            "description": "<strong>Don't Pop It!</strong> is a captivating game where you take control of a bubble and face the challenge of preventing it from popping by avoiding obstacles. Overcome various exciting levels as you strive to reach greater distances!",
+            "myContributions": {
+                "title": "My contributions",
+                "listItems": [
+                    "Designed, developed and published.",
+                    "Created all 2D Graphics.",
+                    "Designed over 25 level segments.",
+                    "Created custom shader for blending the level segments."
+                ]
             }
         }
     }

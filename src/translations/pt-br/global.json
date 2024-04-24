@@ -143,6 +143,21 @@
                 "date": "jul 2023 - dez 2023",
                 "description": "Desenvolvi um jogo educacional como parte da minha Tese, focado no aprendizado de matemática."
             }
+        },
+        "dontPopIt": {
+            "card": {
+                "description": "Desenvolvi um jogo usando Unity, adquirindo habilidades em estruturação de projetos, melhores práticas organizacionais e flexibilidade."
+            },
+            "description": "<strong>Don't Pop It!</strong> é um jogo cativante onde você assume o controle de uma bolha e enfrenta o desafio de evitar que ela estoure ao colidir com obstáculos. Supere diversos níveis emocionantes enquanto busca alcançar distâncias cada vez maiores!",
+            "myContributions": {
+                "title": "Minhas contribuições",
+                "listItems": [
+                    "Projetei, desenvolvi e publiquei.",
+                    "Criei todos os gráficos 2D.",
+                    "Projetei mais de 25 segmentos de níveis.",
+                    "Criei um shader personalizado para os mesclar segmentos de níveis."
+                ]
+            }
         }
     }
 }

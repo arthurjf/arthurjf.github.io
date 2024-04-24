@@ -24,8 +24,8 @@ const Projects = () => {
         return projects.sort((a, b) => new Date(b.startDate) - new Date(a.startDate));
     };
 
-    const publishedProjects = sortProjectsByStartDateDescending([projectData[0], projectData[1], projectData[2]]);
-    const ongoingProjects = sortProjectsByStartDateDescending([projectData[3], projectData[4]]);
+    const publishedProjects = sortProjectsByStartDateDescending([projectData[0], projectData[1], projectData[2], projectData[3]]);
+    const ongoingProjects = sortProjectsByStartDateDescending([projectData[4]]);
 
     const renderProjects = (projects) => {
         const filteredProjects = filterProjectsByName(projects);
