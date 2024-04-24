@@ -25,7 +25,7 @@ const Projects = () => {
     };
 
     const publishedProjects = sortProjectsByStartDateDescending([projectData[0], projectData[1], projectData[2], projectData[3]]);
-    const ongoingProjects = sortProjectsByStartDateDescending([projectData[4]]);
+    const ongoingProjects = sortProjectsByStartDateDescending([]);
 
     const renderProjects = (projects) => {
         const filteredProjects = filterProjectsByName(projects);
