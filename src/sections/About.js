@@ -72,7 +72,7 @@ function About() {
                         </div>
                     </div>
                     <div className="col-12 d-flex justify-content-center align-items-center">
-                        <a className="btn btn-custom" href="./res/CV.pdf" target="_blank" rel="noopener noreferrer">
+                        <a className="btn btn-custom" href="./res/CV_Arthur.pdf" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-file-earmark-arrow-down-fill"></i> {t("aboutMe.button.resume.description")}
                         </a>
                     </div>
